@@ -62,5 +62,9 @@
   define('FILENAME_MANUFACTURERS', 'manufacturers.php');   
   
   define('FILENAME_CATEGORIES_NESTED', 'categories_nested.php');    
-  define('FILENAME_CATEGORIES_LISTING', 'categories_listing.php');      
+  define('FILENAME_CATEGORIES_LISTING', 'categories_listing.php');    
+  define('FILENAME_ABOUTUS', 'aboutus.php');       
+  define('FILENAME_DISTRIBUTOR', 'distributors.php');     
+  define('FILENAME_TESTIMONIALS', 'testimonials.php');     
+  define('FILENAME_GOLD', 'gold.php');      
 ?>
