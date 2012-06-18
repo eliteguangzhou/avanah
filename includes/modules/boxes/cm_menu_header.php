@@ -66,16 +66,20 @@
    //           '  <h4 class="Menu_BoxHeading">' . MODULE_BOXES_MAIN_MENU_BOX_TITLE . '</h4>' .
 			  '  <ul>' .
               '    <li class="'.$button_act1.'"><a href="' . tep_href_link(FILENAME_DEFAULT) . '">'. tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_DEFAULT . '' . tep_draw_menu_bottom() . '</a></li>' .
-              '    <li class="'.$button_act2.'"><a href="' . tep_href_link(FILENAME_PRODUCTS_NEW) . '">' . tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_PRODUCTS_NEW . '' . tep_draw_menu_bottom() . '</a></li>' .
-              '    <li class="'.$button_act3.'"><a href="' . tep_href_link(FILENAME_SPECIALS) . '">' . tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_SPECIALS . '' . tep_draw_menu_bottom() . '</a></li>' .
-              '    <li class="'.$button_act4.'"><a href="' . tep_href_link(FILENAME_REVIEWS) . '">' . tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_REVIEWS . '' . tep_draw_menu_bottom() . '</a></li>'.
+			  '    <li class="'.$button_act2.'"><a href="' . tep_href_link(FILENAME_ABOUTUS) . '">' . tep_draw_menu_top() . '' . MENU_TITLE_ABOUTUS . '' . tep_draw_menu_bottom() . '</a></li>' .
+      		  '    <li class="'.$button_act2.'"><a href="' . tep_href_link(FILENAME_DISTRIBUTOR) . '">' . tep_draw_menu_top() . '' . MENU_TITLE_DISTRIBUTOR . '' . tep_draw_menu_bottom() . '</a></li>' .
+      		  '    <li class="'.$button_act2.'"><a href="' . tep_href_link(FILENAME_TESTIMONIALS) . '">' . tep_draw_menu_top() . '' . MENU_TITLE_TESTIMONIALS . '' . tep_draw_menu_bottom() . '</a></li>' .
+      		  '    <li class="'.$button_act2.'"><a href="' . tep_href_link(FILENAME_GOLD) . '">' . tep_draw_menu_top() . '' . MENU_TITLE_GOLD . '' . tep_draw_menu_bottom() . '</a></li>' .
+      
+      // '    <li class="'.$button_act2.'"><a href="' . tep_href_link(FILENAME_PRODUCTS_NEW) . '">' . tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_PRODUCTS_NEW . '' . tep_draw_menu_bottom() . '</a></li>' .
+             // '    <li class="'.$button_act3.'"><a href="' . tep_href_link(FILENAME_SPECIALS) . '">' . tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_SPECIALS . '' . tep_draw_menu_bottom() . '</a></li>' .
+             // '    <li class="'.$button_act4.'"><a href="' . tep_href_link(FILENAME_REVIEWS) . '">' . tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_REVIEWS . '' . tep_draw_menu_bottom() . '</a></li>'.
 			  '    <li class="'.$button_act9.'"><a href="' . tep_href_link(FILENAME_CONTACT_US) . '">' . tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_CONTACT_US . '' . tep_draw_menu_bottom() . '</a></li>'.
 			  '  </ul>' .
               '</div>';
 
       $oscTemplate->addBlock($data, $this->group);
     }
-
     function isEnabled() {
       return $this->enabled;
     }

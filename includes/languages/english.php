@@ -255,4 +255,30 @@ define('PRICE', 'Our Price:&nbsp;&nbsp;');
 define('PRICE2', 'Old Price:&nbsp;&nbsp;');
 define('BACK_TO_TOP', 'Back to Top');
 /* ## add by Seaman ####################################  */
+
+/* aboutus */
+define('MENU_TITLE_ABOUTUS', 'About us');
+define('HEADING_TITLE_ABOUTUS', 'About us');
+define('TEXT_INFORMATION_ABOUTUS', 'AVANAH Paris™ is a HONG KONG based cosmetic brand that\'s main focus is Nano Gold Technology, also known as NGT™.  AVANAH Paris™ was formed by Michel HUYGHUES BEAUFOND  and Arnaud REINETTE  in early 2008.<br/><br/>
+A lengthy search for a smart alternative to costly and painful cosmetic surgery turned up with no reliable options. Realizing there was a desperate need for a safe, cost effective solution to cosmetic surgery, our colleague and ourselves decided to develop state-of-the-art techniques for providing Nano Gold Technologies (NGT™) to consumers.<br/><br/>
+After the successful launch of the Original 24KT Gold Collagen Mask, we set forth to create AVANAH Paris™.<br/><br/>
+We exclusively catered to the professional sector of salons, spas and beauty professionals to get a real feel for the needs of their clients. We immediately began to get positive feedback from the results of our masks and we knew exactly where we wanted to go from there. Extremely excited about the results we decided to plan and launch a complete 24KT line in 2010.<br/><br/>
+Our mission is to develop and introduce new, safe, more affordable, and eco-friendly NGT™ products that will help improve the quality of all our lives. Our unique anti-aging skin care products restore a natural youthful glow and a smoother, suppler appearance. AVANAH Paris™ helps bring back the nourishment your skin needs to be healthier and function more effectively.');
+
+/* DISTRIBUTORS */
+define('MENU_TITLE_DISTRIBUTOR', 'Distributors');
+define('HEADING_TITLE_DISTRIBUTOR', 'Distributors');
+define('TEXT_INFORMATION_DISTRIBUTOR', 'If you are interested in becoming a distributor in your area, please contact contact@avanah-paris.com or call us at 0033 970 465 025. One of our sales agents will contact you shortly with distributor guidelines and requirements.'); 
+
+/**TESTIMONIALS **/
+define('MENU_TITLE_TESTIMONIALS', 'Testimonials');
+define('HEADING_TITLE_TESTIMONIALS', 'Testimonials');
+define('TEXT_INFORMATION_TESTIMONIALS', 'It’s the best beauty treatment around!  My skin is tighter, more resilient, my pores are minimized and the best part is… it doesn’t burn!  I have sensitive skin so a lot of anti-aging products burn my skin and I wind up looking worse!  I also love how the gold flecks stay in your skin hours after the application!<br/>
+- Alicia Gentile, Hollywood Hott<br/><br/>
+I love it!! I gave myself a peel last night and used the AVANAH Paris mask and had great results, my skin looks flawless right now. Love, love, love it!! This was my great find at the show. :)<br/>
+- Becca, Bella Skin Care at The Ivy House<br/><br/>
+I am honestly astonished at how well the under eye treatments work. It\'s like buying back 10 years...<br/>
+- Kate Buckley');
+
+
 ?>

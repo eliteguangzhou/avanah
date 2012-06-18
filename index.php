@@ -42,6 +42,7 @@
   include(FILENAME_CATEGORIES_NESTED); 
 ?>
 
+
 <?php
   } elseif ($category_depth == 'products' || isset($HTTP_GET_VARS['manufacturers_id'])) {
   $tab_sel = tep_href_link(FILENAME_CATEGORIES_LISTING);
@@ -53,6 +54,7 @@
 
 <?php
   } else { // default page
+ 
   $tab_sel = tep_href_link(FILENAME_DEFAULT);
   $current_page = FILENAME_DEFAULT;
   require(DIR_WS_INCLUDES . 'template_top.php');

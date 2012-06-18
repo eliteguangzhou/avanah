@@ -144,6 +144,7 @@ $("ul.thumb li").hover(function() {
     }
 
     function isEnabled() {
+    	return FALSE;
       return $this->enabled;
     }
 
