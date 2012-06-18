@@ -30,7 +30,7 @@
 <script type="text/javascript" src="ext/jquery/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="ext/jquery/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="ext/jquery/ui/jquery-ui-1.8.6.min.js"></script>
-
+<script type="text/javascript" src="includes/main.js"></script>
 <?php
   if (tep_not_null(JQUERY_DATEPICKER_I18N_CODE)) {
 ?>
@@ -89,6 +89,18 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
 <?php
 			}
 ?>    
+<?php 
+if (  $current_page == FILENAME_DEFAULT){
+?>
+<div id="main_image_background">
+<img src="includes/languages/french/images/banner1.jpg" class="img_front">
+<img src="includes/languages/french/images/banner2.jpg" class="img_front">
+</div>
+
+<?php 
+}
+?>
+
 <?php 
             if (($oscTemplate->hasBlocks('box_under_header')))	{
 ?>
