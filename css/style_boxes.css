@@ -155,17 +155,17 @@ a:hover SPAN.newItemInCart 							{color: #f25c06;}
 
 .Footer_BoxWrapper li.first a						{background:none;}
 /* ************************************************************************************* */
-.banner_set							{padding: 20px 0 20px 0; overflow:hidden;background:url('../images/row_1.gif') 0 0 repeat-x transparent; border:1px solid #000; border-width:0px 0px 5px 0px;}
+ .banner_set							{padding: 10px 0 10px 0; overflow:hidden;background:url('../images/row_1.gif') 0 0 repeat-x transparent; border:1px solid #000; border-width:0px 0px 5px 0px;} 
 .banner_set.extra					{border:1px solid #000; border-width:5px 0px 0px 0px;}
 .banner_set ul						{list-style:none;padding:0;margin: 0px 0px 0px -10px; overflow:hidden;}
-.banner_set	li					{ display:block;margin: 0px 0px 0px 20px;padding: 0px 0px 0px 0px;float:left;}
+.banner_set	li					{ display:block;margin: 0px 0px 0px 55px;padding: 0px 0px 0px 0px;float:left;}
 .banner_set	li a				{display:block;}
-.banner_set	li.first			{float:left;}
+.banner_set	li.first			{float:left;margin-left:6px;}
 .banner_set	li.last				{float:left;}
 .banner_set	li.first.last		{float:left;}
 
 .banner,
-.banner_set	li					 {line-height:0; font-size:0;}
+.banner_set	li					 {line-height:0; font-size:0;padding-top:20px;}
 
 .bookmarks 						{width:100%; float:none; overflow:hidden;}
 .bookmarks .infoBoxWrapper		{float:left; margin-right:20px;}

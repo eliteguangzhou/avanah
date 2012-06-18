@@ -36,7 +36,7 @@
     function execute() {
 	  global $oscTemplate;
 	
-	  if (($banner1 = tep_banner_exists('dynamic', BANNER_SET_GROUP_1)) || ($banner2 = tep_banner_exists('dynamic', BANNER_SET_GROUP_2)) || ($banner3 = tep_banner_exists('dynamic', BANNER_SET_GROUP_3)) || ($banner4 = tep_banner_exists('dynamic', BANNER_SET_GROUP_4)) ){
+	  if (($banner1 = tep_banner_exists('dynamic', BANNER_SET_GROUP_1)) || ($banner2 = tep_banner_exists('dynamic', BANNER_SET_GROUP_2)) || ($banner3 = tep_banner_exists('dynamic', BANNER_SET_GROUP_3)) || ($banner4 = tep_banner_exists('dynamic', BANNER_SET_GROUP_4)) || ($banner5 = tep_banner_exists('dynamic', BANNER_SET_GROUP_5)) || ($banner6 = tep_banner_exists('dynamic', BANNER_SET_GROUP_6)) ){
 		  if (MODULE_BOXES_BANNER_SET_CONTENT_PLACEMENT == 'Under Content Block')	{
 			  $extra = 'extra';
 		  }
@@ -61,8 +61,16 @@
         $data1 .= '<li>'.tep_display_banner('static', $banner4).'</li>';
 		$execute = true;		
 	  }
+      if ( ($banner5 = tep_banner_exists('dynamic', BANNER_SET_GROUP_5)) ){
+        $data1 .= '<li>'.tep_display_banner('static', $banner5).'</li>';
+		$execute = true;		
+	  }
+      if ( ($banner6 = tep_banner_exists('dynamic', BANNER_SET_GROUP_6)) ){
+        $data1 .= '<li>'.tep_display_banner('static', $banner6).'</li>';
+		$execute = true;		
+	  }
 	  	  	  
-	  if (($banner1 = tep_banner_exists('dynamic', BANNER_SET_GROUP_1)) || ($banner2 = tep_banner_exists('dynamic', BANNER_SET_GROUP_2)) || ($banner3 = tep_banner_exists('dynamic', BANNER_SET_GROUP_3)) || ($banner4 = tep_banner_exists('dynamic', BANNER_SET_GROUP_4)) ){
+	  if (($banner1 = tep_banner_exists('dynamic', BANNER_SET_GROUP_1)) || ($banner2 = tep_banner_exists('dynamic', BANNER_SET_GROUP_2)) || ($banner3 = tep_banner_exists('dynamic', BANNER_SET_GROUP_3)) || ($banner4 = tep_banner_exists('dynamic', BANNER_SET_GROUP_4)) || ($banner5 = tep_banner_exists('dynamic', BANNER_SET_GROUP_5)) || ($banner6 = tep_banner_exists('dynamic', BANNER_SET_GROUP_6)) ){
 		  
 	  $data1 .= '</ul></div></div>';
 	  }

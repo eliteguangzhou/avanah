@@ -30,7 +30,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .bg_body				{height:100%;height:100%;height:auto !important;min-height:100%;}
 
 .wrapper-padd			{margin:13px auto 0px auto; width:1046px; background:#fff; overflow:hidden;}
-.row_1					{font-size:1em;padding: 0px 0px 0px 0px;background:url('../images/row_1.gif') 0px 182px repeat-x transparent;}
+.row_1					{font-size:1em;padding: 0px 0px 0px 0px;}background:url('../images/row_1.gif') 0px 182px repeat-x transparent;
 .row_2					{margin: 0px 0px 0px 0px;padding: 20px 0px 0px 0px;}
 
 .row_3					{font-size:1em;padding: 18px 0px 10px 0px;}
@@ -77,8 +77,8 @@ a:hover 	{color:#303030; text-decoration:none;}
 
 .contentContainer.page_un .contentText	{padding: 18px 27px 0px 27px;}
 /* ************************************************************************************* */
-#header 				{height:149px;}
-.logo 					{display:inline-block;width:285px; height:97px; position:absolute; left:50%; margin-left:-476px; top:52px;}
+#header 				{height:100px;}
+.logo 					{display:inline-block;width:285px; height:97px; position:absolute; left:50%; margin-left:-476px; top:10px;}
 .logo img				{margin:0px 0px 0px 0px;}
 /* ************************************************************************************* */
 .header_block		{padding:0px 0px 0px 0px;margin: 13px 0px 0px 0px; width:457px; position:relative; background:#C30; overflow:hidden;}
@@ -218,7 +218,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .menu									{float:left;}
 .menu ul								{padding: 0px 0px 0px 0px;margin: 0px 0px 0px 0px; list-style:none; overflow:hidden; font-size:1.46em;font-family:Nixie One;}
 .menu li								{/*background:url('../images/menu_item.gif') 0px 50% no-repeat transparent;*/ float:left;padding: 0 0 0 0 ; border-left:1px solid #fff;}
-.menu li a 								{color:#fff;display:inline-block;padding: 7px 23px 9px 23px; font-weight:normal;}
+.menu li a 								{color:#fff;display:inline-block;padding: 7px 23px 9px 23px; font-weight:bolder; font-family:Cambria; font-size:17px;}
 
 .menu li a								{text-decoration:none;}
 

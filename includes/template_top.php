@@ -30,6 +30,7 @@
 <script type="text/javascript" src="ext/jquery/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="ext/jquery/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="ext/jquery/ui/jquery-ui-1.8.6.min.js"></script>
+<script type="text/javascript" src="includes/product-banner.js"></script>
 
 <?php
   if (tep_not_null(JQUERY_DATEPICKER_I18N_CODE)) {
