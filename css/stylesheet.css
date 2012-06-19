@@ -97,7 +97,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .currencies	label	{}
 .currencies	select	{}
 
-.languages			{margin: 0px 0px 0px 0px;padding-top: 6px;}
+.languages			{margin: 0px 0px 0px 0px;padding-top: 6px;padding-left: 6px;}
 .languages	label	{ display:none;}
 .languages	select	{}
 .languages img				{margin: 2px 0px 0px 0px;}
