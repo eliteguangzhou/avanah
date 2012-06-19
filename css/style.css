@@ -552,12 +552,14 @@ h2.price								{padding: 0px 0px 14px 0px; overflow:hidden;}
 /***************div with image in front page *************/
 #main_image_background{
 	background:black;
-	height:70%;
+	height:50%;
+	min-height:50%;
+	overflow: hidden;
 	}
 .img_front {
 	/*position:absolute;*/
     top:0;
-    display:none;
+    display:none; 
     width:100%;
     height:100%;
 }
