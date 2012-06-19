@@ -10,7 +10,7 @@
 */
 body {
   background:#fff;
-  color:#979797;
+  color:#888;
   position:relative;
 /* 
   font-size: 62.5%; - 10px;
@@ -19,7 +19,7 @@ body {
   font-size: 81.2%; - 13px; 
   font-size: 87.2%; - 14px; 
 */   
-  font-size: 68.8%; 
+  font-size: 75%; 
   line-height:1.5em; font-family:Arial, Helvetica, sans-serif; 
   margin: 0px;
 }
@@ -180,7 +180,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .banner_header				{display:inline-block;margin: 39px 8px 157px 0px; float:right;}
 /* ************************************************************************************* */
 /* ************************************************************************************* */
-.breadcrumb					{padding:0px 1px 15px 0px;margin:0px 0px 0px 0px; border-bottom:1px solid #000;}
+.breadcrumb					{padding:5px 1px 10px 0px;margin:0px 0px 0px 0px; border-bottom:1px solid #000;}
 .breadcrumb					{color: #2e2e2e;}
 .breadcrumb a 				{color: #2e2e2e; font-size:1.1em; font-weight:normal; 
   						     display:inline-block;}
@@ -217,7 +217,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .boxes_menu								{overflow:hidden;margin-top:0px; margin-bottom:0px;background:#000;}
 .menu									{float:left;}
 .menu ul								{padding: 0px 0px 0px 0px;margin: 0px 0px 0px 0px; list-style:none; overflow:hidden; font-size:1.46em;font-family:Nixie One;}
-.menu li								{/*background:url('../images/menu_item.gif') 0px 50% no-repeat transparent;*/ float:left;padding: 0 0 0 0 ; border-left:1px solid #fff;}
+.menu li								{/*background:url('../images/menu_item.gif') 0px 50% no-repeat transparent;*/ float:left;padding: 0 0 0 0 ; border-left:1px solid #aaa;}
 .menu li a 								{color:#fff;display:inline-block;padding: 7px 23px 9px 23px; font-weight:bolder; font-family:Cambria; font-size:17px;}
 
 .menu li a								{text-decoration:none;}
@@ -225,7 +225,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .menu li.act a,
 .menu li:hover a						{ color:#fff;text-decoration:none;}
 
-.menu li.last	a						{ border-right:1px solid #fff;}
+.menu li.last	a						{ border-right:1px solid #aaa;}
 /* ************************************************************************************* */
 /* ************************************************************************************* */
 /* ************************************************************************************* */
