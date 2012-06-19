@@ -14,3 +14,4 @@
   define('MODULE_BOXES_BANNER_SET_DESCRIPTION', 'Display Banners Set');
   define('MODULE_BOXES_BANNER_SET_BOX_TITLE', 'Banner Set');
 ?>
+

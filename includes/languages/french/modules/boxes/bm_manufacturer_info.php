@@ -16,3 +16,4 @@
   define('MODULE_BOXES_MANUFACTURER_INFO_BOX_HOMEPAGE', '%s Home Page');
   define('MODULE_BOXES_MANUFACTURER_INFO_BOX_OTHER_PRODUCTS', 'Other products');
 ?>
+
