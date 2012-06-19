@@ -2,7 +2,7 @@
 .infoBoxWrapper.list 				{}
 /* ************************************************************************************* */
 .infoHeading,
-.infoBoxWrapper .infoBoxHeading  			{color:#000;font-family:Nixie One;font-size:2.45em;line-height:1em;margin-top:-11px; font-weight:bold;text-transform:uppercase;
+.infoBoxWrapper .infoBoxHeading  			{color:#000;font-family:One;font-size:2em;line-height:1em;margin-top:-11px; font-weight:bold;text-transform:uppercase;
   											 overflow:hidden;padding:8px 0px 6px 0px;margin: 0px 0px 0px 0px; position:relative;border:0px;}
 .infoBoxWrapper .infoBoxHeading a 			{color:#000;}
 .infoBoxWrapper .infoBoxHeading .title-icon	{background:url('../images/infoBoxHeading1.gif') 0px 0px no-repeat transparent; display:inline-block; width:16px; height:17px; position:absolute; top:5px; left:14px; display:none;}

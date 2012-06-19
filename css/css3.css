@@ -34,6 +34,7 @@
  	-khtml-border-radius: 5px; /* KHTML */
   	border-radius: 5px;
 	position:relative;
+	font-size:13px;
 }
 .cart_products_options,
 .row_7 CHECKBOX, .row_7 INPUT, .row_7 RADIO, .row_7 select, .row_7 textarea,
