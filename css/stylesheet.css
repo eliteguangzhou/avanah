@@ -35,7 +35,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 
 .row_3					{font-size:1em;padding: 18px 0px 10px 0px;}
 .row_4					{font-size:1em;padding: 0px 0px 0px 0px;/*background:url('../images/row_4.gif') 0px 0px repeat-x transparent;*/}
-.row_41					{height:33px; position:relative;}
+.row_41					{height:0px; position:relative;}
 .row_5					{font-size:1em;padding: 0px 0px 0px 0px;}
 .row_line				{font-size:0; line-height:0;margin:0px;padding: 0px;border-top:1px solid #e6e6e6;border-bottom:1px solid #fff;}
 #header .row_line		{margin: 0px 0px 0px 0px;}
@@ -97,7 +97,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .currencies	label	{}
 .currencies	select	{}
 
-.languages			{margin: 0px 0px 0px 0px;padding-top: 6px;padding-left: 6px;}
+.languages			{margin: 0px 0px 0px 0px;padding-top: 6px;padding-left: 100px;}
 .languages	label	{ display:none;}
 .languages	select	{}
 .languages img				{margin: 2px 0px 0px 0px;}
@@ -204,7 +204,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .footer 								{overflow:hidden;background:url('../images/paypal.png') 100% 35px no-repeat transparent;} 
 .footer p								{margin:5px 0px 0px 0px; padding-left:0px; text-align:left; clear:both;}
 .footer p								{color:#7d7d7d;line-height:1em; overflow:hidden; display:block;padding: 8px 0px 0px 0px;}
-.footer p > a							{color:#000;  display:inline-block; float:left; font-family:Nixie One;font-size:2.45em;line-height:1em;margin-top:-11px; font-weight:bold;}/* */
+.footer p > a							{color:#000;  display:inline-block; float:left; font-family:One;font-size:2.2em;line-height:1em;margin-top:-11px; font-weight:normal;}/* */
 .footer p b	a,
 .footer p b								{color:#848484;font-weight:normal;}
 .footer p b	a							{color:#848484;text-decoration:underline; font-size:1em;}
@@ -239,7 +239,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .box_header_cart,
 .box_header_user_menu,
 .box_currencies,	
-.box_languages									{position:absolute; overflow:hidden; display:inline-block; z-index:9999;}
+.box_languages									{position:relative; overflow:hidden; display:inline-block; z-index:9999; float:right;}
 
 .search 										{top:7px; left:0px;}
 
