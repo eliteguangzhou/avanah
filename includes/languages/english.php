@@ -268,7 +268,9 @@ Our mission is to develop and introduce new, safe, more affordable, and eco-frie
 /* DISTRIBUTORS */
 define('MENU_TITLE_DISTRIBUTOR', 'Distributors');
 define('HEADING_TITLE_DISTRIBUTOR', 'Distributors');
-define('TEXT_INFORMATION_DISTRIBUTOR', 'If you are interested in becoming a distributor in your area, please contact contact@avanah-paris.com or call us at 0033 970 465 025. One of our sales agents will contact you shortly with distributor guidelines and requirements.'); 
+define('TEXT_INFORMATION_DISTRIBUTOR', 'If you are interested in becoming a distributor in your area, please contact contact@avanah-paris.com or call us at 0033 970 465 025. One of our sales agents will contact you shortly with distributor guidelines and requirements.');
+ 
+
 
 /**TESTIMONIALS **/
 define('MENU_TITLE_TESTIMONIALS', 'Testimonials');
@@ -280,5 +282,17 @@ I love it!! I gave myself a peel last night and used the AVANAH Paris mask and h
 I am honestly astonished at how well the under eye treatments work. It\'s like buying back 10 years...<br/>
 - Kate Buckley');
 
-
+/* why gold*/
+define('MENU_TITLE_GOLD', 'Why gold ?');
+define('HEADING_TITLE_GOLD', 'Why gold ?');
+define('TEXT_INFORMATION_GOLD', 'à travers l\'histoire l\'or a été reconnue pour ses propriétés de luxe et embellir.<br/><br/>
+Or colloïdal, aussi connu comme «nano-or», est une suspension de sous-micrométrique des particules d\'or dans un fluide invisible à l\'œil nu. Les qualités miraculeuses de nano-or étaient connus depuis le début des temps par les anciens, qui ont consacré énormément de temps et d\'énergie à l\'alchimie et l\'or colloïdal est connu comme un «élixir de vie."<br/><br/>
+Les bénéfices anti-âge d\'or peut être retracée depuis 5000 années jusqu\'à les temps de Cléopâtre, qui a été dit de dormir avec un masque d\'or chaque nuit afin d\'améliorer la souplesse de son teint et de préserver sa luminosité naturelle.<br/><br/>
+En la médecine chinoise antique, Or a été une clé pour les jeunes, des reines utilisées rouleaux de massage d\'or sur leur visage tous les jours. les faciaux d\'or ont également été<br/><br/>
+utilisés dans la culture indienne ancienne et ont dit à raffermir la peau, lui donnant un éclat et en réduisant les rides. Dans La Rome antique les guerriers serait l\'utilisation des compresses d\'or sur leurs pieds pour accélérer la guérison des blessures reçues au combat.<br/><br/>
+Sous l\'influence de l\'or la peau améliore et renforce, retrouve l\'élasticité et la fraîcheur, l\'amélioration de la réponse du corps naturel pour la cicatrisation et la régénération. Alors, pourquoi est l\'or si spécial?<br/><br/>
+L\'or est connu pour avoir des propriétés antioxydantes,  il est un anti-inflammatoire et accélère le processus de guérison. Il est hypoallergénique. Une des propriétés les plus importantes de l\'or est qu\'il pénètre le niveau de kératine de la peau, en insérant les ingrédients actifs plus profondément dans le niveau de la peau et leur permettant de travailler plus vite en laissant un effet plus durable.<br/><br/>
+Quand l\'or est en contact avec la peau, il stimule la circulation sanguine dans la région, en accélérant les processus cellulaires et en activant la régénération.<br/><br/>
+Par ailleurs, l\'or est étroitement liée avec les électrons présents dans les cellules qui sont sensibles aux charges électriques; ces ions devient actif sous l\'influence de l\'oret les aider à recréer interrompre les connexions cellulaires. L\'or est bien réputé pour restaurer les propriétés d\'élasticité des tissus perdus. Or réduit également l\'apparition de dommages du soleil et les taches de vieillesse en ralentissant la sécrétion de mélanine.
+Il est vraiment l\'un de l\'émerveillement de la nature et votre peau, il le mérite.');
 ?>

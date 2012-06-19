@@ -62,7 +62,7 @@
         	<div class="container_<?php echo $oscTemplate->getGridContainerWidth(); ?>">
             	<div class="grid_<?php echo $oscTemplate->getGridContainerWidth(); ?>">
                 	<div class="row_41">
-                    	<?php echo $oscTemplate->getBlocks('box_above_footer'); ?>
+                    	<?php // echo $oscTemplate->getBlocks('box_above_footer'); ?>
                     </div>
                     <div class="row_42">     
                         <?php require(DIR_WS_INCLUDES . 'footer.php'); ?>

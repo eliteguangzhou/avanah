@@ -75,9 +75,13 @@
              // '    <li class="'.$button_act3.'"><a href="' . tep_href_link(FILENAME_SPECIALS) . '">' . tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_SPECIALS . '' . tep_draw_menu_bottom() . '</a></li>' .
              // '    <li class="'.$button_act4.'"><a href="' . tep_href_link(FILENAME_REVIEWS) . '">' . tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_REVIEWS . '' . tep_draw_menu_bottom() . '</a></li>'.
 			  '    <li class="'.$button_act9.'"><a href="' . tep_href_link(FILENAME_CONTACT_US) . '">' . tep_draw_menu_top() . '' . MODULE_BOXES_MAIN_MENU_BOX_CONTACT_US . '' . tep_draw_menu_bottom() . '</a></li>'.
+			  //'<li></li>'.
+			  //'<li >'.
+			  $oscTemplate->getBlocks('box_above_footer').//'</li>'.
 			  '  </ul>' .
               '</div>';
-
+             
+ //echo ' <div ">'.$oscTemplate->getBlocks('box_above_footer').'<div>'; 
       $oscTemplate->addBlock($data, $this->group);
     }
     function isEnabled() {

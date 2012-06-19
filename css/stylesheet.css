@@ -34,7 +34,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .row_2					{margin: 0px 0px 0px 0px;padding: 20px 0px 0px 0px;}
 
 .row_3					{font-size:1em;padding: 18px 0px 10px 0px;}
-.row_4					{font-size:1em;padding: 0px 0px 0px 0px;background:url('../images/row_4.gif') 0px 0px repeat-x transparent;}
+.row_4					{font-size:1em;padding: 0px 0px 0px 0px;/*background:url('../images/row_4.gif') 0px 0px repeat-x transparent;*/}
 .row_41					{height:33px; position:relative;}
 .row_5					{font-size:1em;padding: 0px 0px 0px 0px;}
 .row_line				{font-size:0; line-height:0;margin:0px;padding: 0px;border-top:1px solid #e6e6e6;border-bottom:1px solid #fff;}
@@ -97,7 +97,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 .currencies	label	{}
 .currencies	select	{}
 
-.languages			{margin: 0px 0px 0px 0px;}
+.languages			{margin: 0px 0px 0px 0px;padding-top: 6px;}
 .languages	label	{ display:none;}
 .languages	select	{}
 .languages img				{margin: 2px 0px 0px 0px;}
