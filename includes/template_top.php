@@ -32,6 +32,7 @@
 <script type="text/javascript" src="ext/jquery/ui/jquery-ui-1.8.6.min.js"></script>
 <script type="text/javascript" src="includes/product-banner.js"></script>
 <script type="text/javascript" src="includes/main.js"></script>
+
 <?php
   if (tep_not_null(JQUERY_DATEPICKER_I18N_CODE)) {
 ?>

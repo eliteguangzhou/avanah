@@ -1,6 +1,6 @@
 /**alert('dsfd');***/
 $(document).ready(function (){
-$("li").hover(
+$(".container_36 li").hover(
   function () {
 	$(this).css(
 		"padding-top","10px"
