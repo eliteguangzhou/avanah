@@ -1,13 +1,20 @@
-
 $(document).ready(function() {
 	//loop{
 	loop();
 	//}
- })
-var loop = function (){
-    $(".img_front").each(function(index) {
-        $(this).hide();
-        $(this).delay(4000 * index).fadeIn(4000).fadeOut();
-    });
-    setTimeout(loop,8000);
+})
+function loop() {
+	var images = $(".img_front");
+	var i = 0;
+
+	$('#image'+i).fadeIn(1500);
+	i++;
+	setInterval(function(){
+		images.hide();
+		$('#image'+i).fadeIn(1500);
+		i++;
+		if (i == images.length) {
+            i=0;
+        }
+	}, 2000);
 }

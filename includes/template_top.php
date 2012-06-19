@@ -95,8 +95,8 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
 if (  $current_page == FILENAME_DEFAULT){
 ?>
 <div id="main_image_background">
-<img src="includes/languages/french/images/banner1.jpg" class="img_front">
-<img src="includes/languages/french/images/banner2.jpg" class="img_front">
+<img src="includes/languages/french/images/banner1.jpg" class="img_front" id="image0">
+<img src="includes/languages/french/images/banner2.jpg" class="img_front" id="image1">
 </div>
 
 <?php 
