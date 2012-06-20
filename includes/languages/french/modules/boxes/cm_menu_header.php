@@ -13,7 +13,7 @@
   define('MODULE_BOXES_MAIN_MENU_TITLE', '<b class="add-by-seaman">Main Menu in Header</b>');
   define('MODULE_BOXES_MAIN_MENU_DESCRIPTION', 'Show Main Menu page links in Header');
   define('MODULE_BOXES_MAIN_MENU_BOX_TITLE', 'Main Menu');
-  define('MODULE_BOXES_MAIN_MENU_BOX_DEFAULT', 'Home');
+  define('MODULE_BOXES_MAIN_MENU_BOX_DEFAULT', 'Accueil');
   define('MODULE_BOXES_MAIN_MENU_BOX_PRODUCTS_NEW', 'What\'s New?');
   define('MODULE_BOXES_MAIN_MENU_BOX_SPECIALS', 'Specials');
   define('MODULE_BOXES_MAIN_MENU_BOX_REVIEWS', 'Reviews');
