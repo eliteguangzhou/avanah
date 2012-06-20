@@ -28,7 +28,12 @@
 <div class="contentContainer">
   <div class="contentPadd txtPage">
   <div class="">
-    <?php echo TEXT_INFORMATION_TESTIMONIALS; ?>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/97il8Lz0YrI" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/Kp0HvCHOlSk" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/ooTk7JUC9ok" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/A83P-4th-ho" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/_WLxf8eb5aU" frameborder="0" allowfullscreen></iframe>
+    <?php //echo TEXT_INFORMATION_TESTIMONIALS; ?>
   </div>
 
  

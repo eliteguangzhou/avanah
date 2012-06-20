@@ -257,7 +257,7 @@ define('BACK_TO_TOP', 'Back to Top');
 /* ## add by Seaman ####################################  */
 
 /* aboutus */
-define('MENU_TITLE_ABOUTUS', 'QUI SOMMES-NOUS');
+define('MENU_TITLE_ABOUTUS', 'Qui sommes-nous');
 define('HEADING_TITLE_ABOUTUS', 'QUI SOMMES-NOUS');
 define('TEXT_INFORMATION_ABOUTUS', 'AVANAH Paris ™ est une marque de produits cosmétiques spécialisées dans les produits à base d\'or " Nano Gold Technology", également connu sous le nom NGT ™.  AVANAH Paris ™ a été créée à Hong Kong en 2008 par deux français, Michel HUYGHUES BEAUFOND et Arnaud REINETTE.<br/><br/>
 Tout a été développé afin de proposer une alternative intelligente à la chirurgie esthétique coûteuse et douloureuse. Jugeant qu\'il y avait un besoin important nous a décidé de développer une gamme de produits  utilisant les Nano Technologies à base d\'or (NGT ™).<br/><br/>
@@ -272,8 +272,8 @@ define('TEXT_INFORMATION_DISTRIBUTOR', 'Si vous souhaitez devenir un distributeu
  
 
 /**TESTIMONIALS **/
-define('MENU_TITLE_TESTIMONIALS', 'Testimonials');
-define('HEADING_TITLE_TESTIMONIALS', 'Testimonials');
+define('MENU_TITLE_TESTIMONIALS', 'Videos');
+define('HEADING_TITLE_TESTIMONIALS', 'Videos');
 define('TEXT_INFORMATION_TESTIMONIALS', 'It’s the best beauty treatment around!  My skin is tighter, more resilient, my pores are minimized and the best part is… it doesn’t burn!  I have sensitive skin so a lot of anti-aging products burn my skin and I wind up looking worse!  I also love how the gold flecks stay in your skin hours after the application!<br/>
 - Alicia Gentile, Hollywood Hott<br/><br/>
 I love it!! I gave myself a peel last night and used the AVANAH Paris mask and had great results, my skin looks flawless right now. Love, love, love it!! This was my great find at the show. :)<br/>
