@@ -748,7 +748,7 @@ $('#products_date_available').datepicker({
       } else {
 ?>
       <tr>
-        <td align="center" class="smallText"><?php echo sprintf(TEXT_PRODUCT_DATE_ADDED, tep_date_long($pInfo->products_date_added)); ?></td>
+        <td align="center" class="smallText"><?php //echo sprintf(TEXT_PRODUCT_DATE_ADDED, tep_date_long($pInfo->products_date_added)); ?></td>
       </tr>
 <?php
       }

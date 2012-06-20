@@ -176,7 +176,7 @@
 <?php
         }else{
 ?>		
-                        <div class="data data_padd small_title"><?php echo sprintf(TEXT_DATE_ADDED, tep_date_long($product_info['products_date_added'])); ?></div>
+                        <div class="data data_padd small_title"><?php //echo sprintf(TEXT_DATE_ADDED, tep_date_long($product_info['products_date_added'])); ?></div>
 <?php    	
         }
 ?>
