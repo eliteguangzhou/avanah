@@ -23,7 +23,7 @@ h1 .smallText					{font-size:.55em;}
 h1 del							{font-size:.8em; color:#000; margin-left:3px; margin-top:1px;}								 
 h1.title_un						{}
 
-h2								{color:#b3b3b3;font-size:1.7em; line-height:1.1em; font-weight:normal;
+h2								{color:black;font-size:1.7em; line-height:1.1em; font-weight:normal;
 								 padding: 17px 0px 5px 0px;margin: 0px 0px 0px 0px;}
 .big h2							{padding: 0px 0px 5px 0px;}
 h1 .smallText					{font-size:.775em; font-weight:normal;}								 
@@ -106,7 +106,7 @@ h2.name span a 					{font-weight:normal;}
 .sub_categories .name span a	{color:#000;}
 .sub_categories .name span a:hover	{color:#479faf;}
 
-.desc							{color:#727272;} 
+.desc							{color:black;} 
 .desc p							{text-indent:20px;padding-top: 10px;}
 
 .price b							{color:#727272;float:left; display:none;}

@@ -42,17 +42,17 @@
 
     tep_db_query("update " . TABLE_PRODUCTS_DESCRIPTION . " set products_viewed = products_viewed+1 where products_id = '" . (int)$HTTP_GET_VARS['products_id'] . "' and language_id = '" . (int)$languages_id . "'");
 
-    if ($new_price = tep_get_products_special_price($product_info['products_id'])) {
+/*    if ($new_price = tep_get_products_special_price($product_info['products_id'])) {
       $products_price = ' <span class="productSpecialPrice fl_left">' . $currencies->display_price($new_price, tep_get_tax_rate($product_info['products_tax_class_id'])) . '</span> <del class="fl_left">' . $currencies->display_price($product_info['products_price'], tep_get_tax_rate($product_info['products_tax_class_id'])) . '</del>';
     } else {
       $products_price = '<span class="productSpecialPrice">' . $currencies->display_price($product_info['products_price'], tep_get_tax_rate($product_info['products_tax_class_id'])) . '</span>';
     }
-
-    if (tep_not_null($product_info['products_model'])) {
+*/
+   /* if (tep_not_null($product_info['products_model'])) {
       $products_name = $product_info['products_name'] . '<br /><span class="smallText">[' . $product_info['products_model'] . ']</span>';
     } else {
-      $products_name = $product_info['products_name'];
-    }
+    */  $products_name = $product_info['products_name'];
+    //}
 ?>
 
 <?php echo tep_draw_form('cart_quantity', tep_href_link(FILENAME_PRODUCT_INFO, tep_get_all_get_params(array('action')) . 'action=add_product')); ?>

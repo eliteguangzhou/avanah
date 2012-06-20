@@ -38,10 +38,10 @@ function tep_date_raw($date, $reverse = false) {
 }
 
 // if USE_DEFAULT_LANGUAGE_CURRENCY is true, use the following currency, instead of the applications default currency (used when changing language)
-define('LANGUAGE_CURRENCY', 'USD');
+define('LANGUAGE_CURRENCY', 'EUR');
 
 // Global entries for the <html> tag
-define('HTML_PARAMS', 'dir="ltr" lang="en"');
+define('HTML_PARAMS', 'dir="ltr" lang="fr"');
 
 // charset for web pages and emails
 define('CHARSET', 'utf-8');
@@ -266,8 +266,8 @@ Nos principaux clients sont les professionnels du secteur  des salons, spas et p
 Notre mission est de développer des produits  qui  aident à améliorer la qualité de nos vies à tous. ');
 
 /* DISTRIBUTORS */
-define('MENU_TITLE_DISTRIBUTOR', 'Distributors');
-define('HEADING_TITLE_DISTRIBUTOR', 'Distributors');
+define('MENU_TITLE_DISTRIBUTOR', 'Distributeurs');
+define('HEADING_TITLE_DISTRIBUTOR', 'Distributeurs');
 define('TEXT_INFORMATION_DISTRIBUTOR', 'Si vous souhaitez devenir un distributeur dans votre région, contactez nous à contact@avanah-paris.com ou appelez-nous au 0033 970 465 025.');
  
 

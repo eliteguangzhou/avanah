@@ -16,5 +16,5 @@ function loop() {
 		if (i == images.length) {
             i=0;
         }
-	}, 5000);
+	}, 10000);
 }
