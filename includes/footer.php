@@ -18,7 +18,7 @@
 <?php 
             if (($oscTemplate->hasBlocks('boxes_footer')))	{
 ?>        
-        	<?php echo $oscTemplate->getBlocks('boxes_footer'); ?>
+        	<?php // echo $oscTemplate->getBlocks('boxes_footer'); ?>
            <p><?php echo FOOTER_TEXT_BODY; ?><b>&nbsp; <a href="<?php echo tep_href_link('privacy.php')?>"><?php echo ITEM_INFORMATION_PRIVACY?></a> &nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?php echo tep_href_link('conditions.php')?>"><?php echo ITEM_INFORMATION_CONDITIONS?></a></b>
 </p>
         	</div>   

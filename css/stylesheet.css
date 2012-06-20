@@ -10,7 +10,7 @@
 */
 body {
   background:#fff;
-  color:#888;
+  color:black;
   position:relative;
 /* 
   font-size: 62.5%; - 10px;
@@ -200,7 +200,7 @@ a:hover 	{color:#303030; text-decoration:none;}
 /* ************************************************************************************* */
 /* ************************************************************************************* */
 .footer_menu							{margin-top:0px;  padding-top:0px;}
-.footer									{padding:20px 0px 20px 0px;}
+.footer									{padding:2px 0px 2px 0px;}
 .footer 								{overflow:hidden;background:url('../images/paypal.png') 100% 35px no-repeat transparent;} 
 .footer p								{margin:5px 0px 0px 0px; padding-left:0px; text-align:left; clear:both;}
 .footer p								{color:#7d7d7d;line-height:1em; overflow:hidden; display:block;padding: 8px 0px 0px 0px;}
