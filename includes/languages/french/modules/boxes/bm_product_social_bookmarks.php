@@ -12,5 +12,5 @@
 
   define('MODULE_BOXES_PRODUCT_SOCIAL_BOOKMARKS_TITLE', '<b class="add-by-seaman">Product Social Bookmarks</b>');
   define('MODULE_BOXES_PRODUCT_SOCIAL_BOOKMARKS_DESCRIPTION', 'Show social bookmarks on the product information page');
-  define('MODULE_BOXES_PRODUCT_SOCIAL_BOOKMARKS_BOX_TITLE', 'Share Product');
+  define('MODULE_BOXES_PRODUCT_SOCIAL_BOOKMARKS_BOX_TITLE', 'Partager');
 ?>

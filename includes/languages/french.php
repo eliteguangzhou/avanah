@@ -50,118 +50,118 @@ define('CHARSET', 'utf-8');
 define('TITLE', STORE_NAME);
 
 // header text in includes/header.php
-define('HEADER_TITLE_CREATE_ACCOUNT', 'Create an Account');
-define('HEADER_TITLE_MY_ACCOUNT', 'My Account');
+define('HEADER_TITLE_CREATE_ACCOUNT', 'Cr&eacute;er un compte');
+define('HEADER_TITLE_MY_ACCOUNT', 'Mon compte');
 define('HEADER_TITLE_CART_CONTENTS', 'Cart Contents');
 define('HEADER_TITLE_CHECKOUT', 'Checkout');
 define('HEADER_TITLE_TOP', 'Top');
-define('HEADER_TITLE_CATALOG', 'Catalog');
-define('HEADER_TITLE_LOGOFF', 'Log Off');
-define('HEADER_TITLE_LOGIN', 'Log In');
+define('HEADER_TITLE_CATALOG', 'Catalogue');
+define('HEADER_TITLE_LOGOFF', 'Se d&eacute;connecter');
+define('HEADER_TITLE_LOGIN', 'Se connecter');
 
 // footer text in includes/footer.php
 define('FOOTER_TEXT_REQUESTS_SINCE', 'requests since');
 
 // text for gender
-define('MALE', 'Male');
-define('FEMALE', 'Female');
+define('MALE', 'Homme');
+define('FEMALE', 'Femme');
 define('MALE_ADDRESS', 'Mr.');
-define('FEMALE_ADDRESS', 'Ms.');
+define('FEMALE_ADDRESS', 'Mmd.');
 
 // text for date of birth example
 define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
 
 // checkout procedure text
-define('CHECKOUT_BAR_DELIVERY', 'Delivery Information');
-define('CHECKOUT_BAR_PAYMENT', 'Payment Information');
+define('CHECKOUT_BAR_DELIVERY', 'Information de livraison');
+define('CHECKOUT_BAR_PAYMENT', 'Information de paiment');
 define('CHECKOUT_BAR_CONFIRMATION', 'Confirmation');
-define('CHECKOUT_BAR_FINISHED', 'Finished!');
+define('CHECKOUT_BAR_FINISHED', 'Fini!');
 
 // pull down default text
-define('PULL_DOWN_DEFAULT', 'Please Select');
+define('PULL_DOWN_DEFAULT', 'Choisir');
 define('TYPE_BELOW', 'Type Below');
 
 // javascript messages
-define('JS_ERROR', 'Errors have occured during the process of your form.\n\nPlease make the following corrections:\n\n');
+define('JS_ERROR', 'Une erreur est survenue lors du traitement du formulaire.');
 
-define('JS_REVIEW_TEXT', '* The \'Review Text\' must have at least ' . REVIEW_TEXT_MIN_LENGTH . ' characters.\n');
+define('JS_REVIEW_TEXT', '* The \'Review Text\' must have at least ' . REVIEW_TEXT_MIN_LENGTH . ' caract&egrave;res.\n');
 define('JS_REVIEW_RATING', '* You must rate the product for your review.\n');
 
-define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Please select a payment method for your order.\n');
+define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Veuillez choisir une methode de paiement.\n');
 
-define('JS_ERROR_SUBMITTED', 'This form has already been submitted. Please press Ok and wait for this process to be completed.');
+define('JS_ERROR_SUBMITTED', 'Ce formulaire a d&eacute;j&agrave; &eacute;t&eacute; soumis. Veuillez cliquer sur Ok et attendre la fin du processus. ');
 
-define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Please select a payment method for your order.');
+define('ERROR_NO_PAYMENT_MODULE_SELECTED', 'Veuillez choisir une methode de paiement.');
 
-define('CATEGORY_COMPANY', 'Company Details');
-define('CATEGORY_PERSONAL', 'Your Personal Details');
-define('CATEGORY_ADDRESS', 'Your Address');
-define('CATEGORY_CONTACT', 'Your Contact Information');
+define('CATEGORY_COMPANY', 'Companie');
+define('CATEGORY_PERSONAL', 'Vos donn&eacute;es personnelles');
+define('CATEGORY_ADDRESS', 'Votre adresse');
+define('CATEGORY_CONTACT', 'Contact');
 define('CATEGORY_OPTIONS', 'Options');
-define('CATEGORY_PASSWORD', 'Your Password');
+define('CATEGORY_PASSWORD', 'Votre mot de passe');
 
-define('ENTRY_COMPANY', 'Company Name:');
+define('ENTRY_COMPANY', 'Nom de votre companie:');
 define('ENTRY_COMPANY_TEXT', '');
-define('ENTRY_GENDER', 'Gender:');
-define('ENTRY_GENDER_ERROR', 'Please select your Gender.');
+define('ENTRY_GENDER', 'genre:');
+define('ENTRY_GENDER_ERROR', 'Veuillez choisir votre genre.');
 define('ENTRY_GENDER_TEXT', '*');
-define('ENTRY_FIRST_NAME', 'First Name:');
-define('ENTRY_FIRST_NAME_ERROR', 'Your First Name must contain a minimum of ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' characters.');
+define('ENTRY_FIRST_NAME', 'Nom de famille:');
+define('ENTRY_FIRST_NAME_ERROR', 'Votre nom de famille doit contenir au moins ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' caract&egrave;res.');
 define('ENTRY_FIRST_NAME_TEXT', '*');
-define('ENTRY_LAST_NAME', 'Last Name:');
-define('ENTRY_LAST_NAME_ERROR', 'Your Last Name must contain a minimum of ' . ENTRY_LAST_NAME_MIN_LENGTH . ' characters.');
+define('ENTRY_LAST_NAME', 'Pr&eacute;nom:');
+define('ENTRY_LAST_NAME_ERROR', 'Votre pr&eacute;nom doit contenir au moins ' . ENTRY_LAST_NAME_MIN_LENGTH . ' caract&egrave;res.');
 define('ENTRY_LAST_NAME_TEXT', '*');
-define('ENTRY_DATE_OF_BIRTH', 'Date of Birth:');
-define('ENTRY_DATE_OF_BIRTH_ERROR', 'Your Date of Birth must be in this format: MM/DD/YYYY (eg 05/21/1970)');
-define('ENTRY_DATE_OF_BIRTH_TEXT', '* (eg. 05/21/1970)');
-define('ENTRY_EMAIL_ADDRESS', 'E-Mail Address:');
-define('ENTRY_EMAIL_ADDRESS_ERROR', 'Your E-Mail Address must contain a minimum of ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' characters.');
-define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Your E-Mail Address does not appear to be valid - please make any necessary corrections.');
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Your E-Mail Address already exists in our records - please log in with the e-mail address or create an account with a different address.');
+define('ENTRY_DATE_OF_BIRTH', 'Date de naissance:');
+define('ENTRY_DATE_OF_BIRTH_ERROR', 'Votre date de naissance doit &ecirc;tre de ce format: MM/JJ/AAAA (ex 05/21/1970)');
+define('ENTRY_DATE_OF_BIRTH_TEXT', '* MM/JJ/AAAA (ex. 05/21/1970)');
+define('ENTRY_EMAIL_ADDRESS', 'E-Mail Adresse:');
+define('ENTRY_EMAIL_ADDRESS_ERROR', 'Votre email doit contenir un minimum de ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' caract&egrave;res.');
+define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Votre email n\'est pas valide.');
+define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Votre email est d&eacute;j&agrave; enregistr&eacute; sur notre site. Veuillez vous connecter ou cr&eacute;e un compte avec une autre adresse email.');
 define('ENTRY_EMAIL_ADDRESS_TEXT', '*');
-define('ENTRY_STREET_ADDRESS', 'Street Address:');
-define('ENTRY_STREET_ADDRESS_ERROR', 'Your Street Address must contain a minimum of ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' characters.');
+define('ENTRY_STREET_ADDRESS', 'Num&eacute;ro et nom de rue:');
+define('ENTRY_STREET_ADDRESS_ERROR', 'Votre adresse doit contenir un minimum de ' . ENTRY_STREET_ADDRESS_MIN_LENGTH . ' caract&egrave;res.');
 define('ENTRY_STREET_ADDRESS_TEXT', '*');
-define('ENTRY_SUBURB', 'Suburb:');
+define('ENTRY_SUBURB', 'Complement:');
 define('ENTRY_SUBURB_TEXT', '');
-define('ENTRY_POST_CODE', 'Post Code:');
-define('ENTRY_POST_CODE_ERROR', 'Your Post Code must contain a minimum of ' . ENTRY_POSTCODE_MIN_LENGTH . ' characters.');
+define('ENTRY_POST_CODE', 'Code Postal:');
+define('ENTRY_POST_CODE_ERROR', 'Votre code postal doit contenir un minimum ' . ENTRY_POSTCODE_MIN_LENGTH . ' caract&egrave;res.');
 define('ENTRY_POST_CODE_TEXT', '*');
-define('ENTRY_CITY', 'City:');
-define('ENTRY_CITY_ERROR', 'Your City must contain a minimum of ' . ENTRY_CITY_MIN_LENGTH . ' characters.');
+define('ENTRY_CITY', 'Ville:');
+define('ENTRY_CITY_ERROR', 'Votre ville doit contenir un minimum de ' . ENTRY_CITY_MIN_LENGTH . ' caract&egrave;res.');
 define('ENTRY_CITY_TEXT', '*');
-define('ENTRY_STATE', 'State/Province:');
-define('ENTRY_STATE_ERROR', 'Your State must contain a minimum of ' . ENTRY_STATE_MIN_LENGTH . ' characters.');
-define('ENTRY_STATE_ERROR_SELECT', 'Please select a state from the States pull down menu.');
+define('ENTRY_STATE', 'R&eacute;gion:');
+define('ENTRY_STATE_ERROR', 'Votre pays doit contenir un minimum de ' . ENTRY_STATE_MIN_LENGTH . ' caract&egrave;res.');
+define('ENTRY_STATE_ERROR_SELECT', 'Veuillez choisir un pays dans le menu deroulant.');
 define('ENTRY_STATE_TEXT', '*');
-define('ENTRY_COUNTRY', 'Country:');
-define('ENTRY_COUNTRY_ERROR', 'You must select a country from the Countries pull down menu.');
+define('ENTRY_COUNTRY', 'Pays:');
+define('ENTRY_COUNTRY_ERROR', 'Vous devez s&eacute;lectionner.');
 define('ENTRY_COUNTRY_TEXT', '*');
-define('ENTRY_TELEPHONE_NUMBER', 'Telephone Number:');
-define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Your Telephone Number must contain a minimum of ' . ENTRY_TELEPHONE_MIN_LENGTH . ' characters.');
+define('ENTRY_TELEPHONE_NUMBER', 'Num&eacute;ro de t&eacute;l&eacute;phone:');
+define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Votre t&eacute;l&eacute;phone doit contenir un minimum de ' . ENTRY_TELEPHONE_MIN_LENGTH . ' caract&egrave;res.');
 define('ENTRY_TELEPHONE_NUMBER_TEXT', '*');
-define('ENTRY_FAX_NUMBER', 'Fax Number:');
+define('ENTRY_FAX_NUMBER', 'Num&eacute;ro de fax:');
 define('ENTRY_FAX_NUMBER_TEXT', '');
 define('ENTRY_NEWSLETTER', 'Newsletter:');
 define('ENTRY_NEWSLETTER_TEXT', '');
-define('ENTRY_NEWSLETTER_YES', 'Subscribed');
-define('ENTRY_NEWSLETTER_NO', 'Unsubscribed');
-define('ENTRY_PASSWORD', 'Password:');
-define('ENTRY_PASSWORD_ERROR', 'Your Password must contain a minimum of ' . ENTRY_PASSWORD_MIN_LENGTH . ' characters.');
-define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'The Password Confirmation must match your Password.');
+define('ENTRY_NEWSLETTER_YES', 'S\'inscrire');
+define('ENTRY_NEWSLETTER_NO', 'Se d&eacutesinscrire');
+define('ENTRY_PASSWORD', 'Mot de passe:');
+define('ENTRY_PASSWORD_ERROR', 'Votre mot de passe doit contenir un minimun de ' . ENTRY_PASSWORD_MIN_LENGTH . ' caract&egrave;res.');
+define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'Le mot de passe de confirmation ne correspond pas.');
 define('ENTRY_PASSWORD_TEXT', '*');
-define('ENTRY_PASSWORD_CONFIRMATION', 'Password Confirmation:');
+define('ENTRY_PASSWORD_CONFIRMATION', 'Confirmatin du mot de passe:');
 define('ENTRY_PASSWORD_CONFIRMATION_TEXT', '*');
-define('ENTRY_PASSWORD_CURRENT', 'Current Password:');
+define('ENTRY_PASSWORD_CURRENT', 'Mot de passe actuel:');
 define('ENTRY_PASSWORD_CURRENT_TEXT', '*');
-define('ENTRY_PASSWORD_CURRENT_ERROR', 'Your Password must contain a minimum of ' . ENTRY_PASSWORD_MIN_LENGTH . ' characters.');
-define('ENTRY_PASSWORD_NEW', 'New Password:');
+define('ENTRY_PASSWORD_CURRENT_ERROR', 'Votre mot de passe doit contenir un minimum de ' . ENTRY_PASSWORD_MIN_LENGTH . ' caract&egrave;res.');
+define('ENTRY_PASSWORD_NEW', 'Nouveau mot de passe:');
 define('ENTRY_PASSWORD_NEW_TEXT', '*');
-define('ENTRY_PASSWORD_NEW_ERROR', 'Your new Password must contain a minimum of ' . ENTRY_PASSWORD_MIN_LENGTH . ' characters.');
-define('ENTRY_PASSWORD_NEW_ERROR_NOT_MATCHING', 'The Password Confirmation must match your new Password.');
-define('PASSWORD_HIDDEN', '--HIDDEN--');
+define('ENTRY_PASSWORD_NEW_ERROR', 'Votre nuoveau mot de passe doit contenir un minimum de ' . ENTRY_PASSWORD_MIN_LENGTH . ' caract&egrave;res.');
+define('ENTRY_PASSWORD_NEW_ERROR_NOT_MATCHING', 'Les mot de passes ne correspondent pas.');
+define('PASSWORD_HIDDEN', '--CACHE--');
 
-define('FORM_REQUIRED_INFORMATION', '* Required information');
+define('FORM_REQUIRED_INFORMATION', '* Champs obligatoires');
 
 // constants for use in tep_prev_next_display function
 define('TEXT_RESULT_PAGE', 'Result Pages:');
@@ -171,10 +171,10 @@ define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', '<span>Displaying <strong>%d</strong> t
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_NEW', '<span>Displaying <strong>%d</strong> to <strong>%d</strong></span> (of <strong>%d</strong> new products)');
 define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', '<span>Displaying <strong>%d</strong> to <strong>%d</strong></span> (of <strong>%d</strong> specials)');
 
-define('PREVNEXT_TITLE_FIRST_PAGE', 'First Page');
-define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Previous Page');
-define('PREVNEXT_TITLE_NEXT_PAGE', 'Next Page');
-define('PREVNEXT_TITLE_LAST_PAGE', 'Last Page');
+define('PREVNEXT_TITLE_FIRST_PAGE', 'Premiere page');
+define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Page pr&eacute;c&eacute;dente');
+define('PREVNEXT_TITLE_NEXT_PAGE', 'Page suivante');
+define('PREVNEXT_TITLE_LAST_PAGE', 'Derniere page');
 define('PREVNEXT_TITLE_PAGE_NO', 'Page %d');
 define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Previous Set of %d Pages');
 define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Next Set of %d Pages');
@@ -183,48 +183,48 @@ define('PREVNEXT_BUTTON_PREV', '[&nbsp;<small>&lt;&lt;</small>&nbsp;<span>Prev</
 define('PREVNEXT_BUTTON_NEXT', '[&nbsp;<span>Next</span>&nbsp;<small>&gt;&gt;</small>&nbsp;]');
 define('PREVNEXT_BUTTON_LAST', 'LAST&gt;&gt;');
 
-define('IMAGE_BUTTON_ADD_ADDRESS', 'Add Address');
-define('IMAGE_BUTTON_ADDRESS_BOOK', 'Address Book');
-define('IMAGE_BUTTON_BACK', 'Back');
-define('IMAGE_BUTTON_BUY_NOW', 'Buy Now');
-define('IMAGE_BUTTON_CHANGE_ADDRESS', 'Change Address');
+define('IMAGE_BUTTON_ADD_ADDRESS', 'Ajouter une adresse');
+define('IMAGE_BUTTON_ADDRESS_BOOK', 'Carnet d\'adresse');
+define('IMAGE_BUTTON_BACK', 'Retour');
+define('IMAGE_BUTTON_BUY_NOW', 'Acheter');
+define('IMAGE_BUTTON_CHANGE_ADDRESS', 'Changer l\'adresse');
 define('IMAGE_BUTTON_CHECKOUT', 'Checkout');
-define('IMAGE_BUTTON_CONFIRM_ORDER', 'Confirm Order');
-define('IMAGE_BUTTON_CONTINUE', 'Continue');
-define('IMAGE_BUTTON_CONTINUE_SHOPPING', 'Continue Shopping');
-define('IMAGE_BUTTON_DELETE', 'Delete');
-define('IMAGE_BUTTON_EDIT_ACCOUNT', 'Edit Account');
-define('IMAGE_BUTTON_HISTORY', 'Order History');
-define('IMAGE_BUTTON_LOGIN', 'Sign In');
-define('IMAGE_BUTTON_IN_CART', 'Add&nbsp;to&nbsp;Cart');
+define('IMAGE_BUTTON_CONFIRM_ORDER', 'Confirmer la commande');
+define('IMAGE_BUTTON_CONTINUE', 'Continuer');
+define('IMAGE_BUTTON_CONTINUE_SHOPPING', 'Continuer votre shopping');
+define('IMAGE_BUTTON_DELETE', 'Supprimer');
+define('IMAGE_BUTTON_EDIT_ACCOUNT', 'Editer votre compte');
+define('IMAGE_BUTTON_HISTORY', 'Historique des commandes');
+define('IMAGE_BUTTON_LOGIN', 'Se connecter');
+define('IMAGE_BUTTON_IN_CART', 'Ajouter au panier');
 define('IMAGE_BUTTON_NOTIFICATIONS', 'Notifications');
 define('IMAGE_BUTTON_QUICK_FIND', 'Quick Find');
-define('IMAGE_BUTTON_REMOVE_NOTIFICATIONS', 'Remove Notifications');
+define('IMAGE_BUTTON_REMOVE_NOTIFICATIONS', 'Supprimer la notifications');
 define('IMAGE_BUTTON_REVIEWS', 'Reviews');
-define('IMAGE_BUTTON_SEARCH', 'Search');
-define('IMAGE_BUTTON_SHIPPING_OPTIONS', 'Shipping Options');
-define('IMAGE_BUTTON_TELL_A_FRIEND', 'Tell a Friend');
-define('IMAGE_BUTTON_UPDATE', 'Update');
-define('IMAGE_BUTTON_UPDATE_CART', 'Update Cart');
+define('IMAGE_BUTTON_SEARCH', 'Rechercher');
+define('IMAGE_BUTTON_SHIPPING_OPTIONS', 'Options de livraison');
+define('IMAGE_BUTTON_TELL_A_FRIEND', 'Partager &agrave; un ami(e)');
+define('IMAGE_BUTTON_UPDATE', 'Mettre &agrave; jour');
+define('IMAGE_BUTTON_UPDATE_CART', 'Mettre &agrave; jour votre panier');
 define('IMAGE_BUTTON_WRITE_REVIEW', 'Write Review');
 
-define('SMALL_IMAGE_BUTTON_DELETE', 'Delete');
-define('SMALL_IMAGE_BUTTON_EDIT', 'Edit');
-define('SMALL_IMAGE_BUTTON_VIEW', 'View');
+define('SMALL_IMAGE_BUTTON_DELETE', 'Supprimer');
+define('SMALL_IMAGE_BUTTON_EDIT', 'Editer');
+define('SMALL_IMAGE_BUTTON_VIEW', 'Voir');
 
-define('ICON_ARROW_RIGHT', 'more');
-define('ICON_CART', 'In Cart');
-define('ICON_ERROR', 'Error');
-define('ICON_SUCCESS', 'Success');
-define('ICON_WARNING', 'Warning');
+define('ICON_ARROW_RIGHT', 'Plus');
+define('ICON_CART', 'Dans votre panier');
+define('ICON_ERROR', 'Erreur');
+define('ICON_SUCCESS', 'Succes');
+define('ICON_WARNING', 'Attention');
 
 define('TEXT_GREETING_PERSONAL', '<strong>Welcome back <span class="greetUser">%s!</span></strong> Would you like to see which <a href="%s"><u>new products</u></a> are available to purchase?');
 define('TEXT_GREETING_PERSONAL_RELOGON', '<small>If you are not %s, please <a href="%s"><u>log yourself in</u></a> with your account information.</small>');
 define('TEXT_GREETING_GUEST', '<strong>Welcome <span class="greetUser">Guest!</span></strong> Would you like to <a href="%s"><u>log yourself in</u></a>? Or would you prefer to <a href="%s"><u>create an account</u></a>?');
 
 define('TEXT_SORT_PRODUCTS', 'Sort products ');
-define('TEXT_DESCENDINGLY', 'descendingly');
-define('TEXT_ASCENDINGLY', 'ascendingly');
+define('TEXT_DESCENDINGLY', 'descendant');
+define('TEXT_ASCENDINGLY', 'ascendant');
 define('TEXT_BY', ' By ');
 
 define('TEXT_REVIEW_BY', 'By %s');
@@ -248,12 +248,12 @@ define('TEXT_CCVAL_ERROR_UNKNOWN_CARD', 'The first four digits of the number ent
 define('FOOTER_TEXT_BODY', ' <a href="' . tep_href_link(FILENAME_DEFAULT) . '">' . STORE_NAME . '</a>&nbsp;&nbsp;  &copy; ' . date('Y'));
 /* ## add by Seaman ####################################  */
 define('ITEM_INFORMATION_PRIVACY', 'Privacy Notice');
-define('ITEM_INFORMATION_CONDITIONS', 'Conditions of Use');
+define('ITEM_INFORMATION_CONDITIONS', 'Conditions d\'utilisation');
 define('ITEM_INFORMATION_SHIPPING', 'Shipping &amp; Returns');
 define('IMAGE_BUTTON_DETAILS', 'Details');
-define('PRICE', 'Our Price:&nbsp;&nbsp;');
-define('PRICE2', 'Old Price:&nbsp;&nbsp;');
-define('BACK_TO_TOP', 'Back to Top');
+define('PRICE', 'Notre prix:&nbsp;&nbsp;');
+define('PRICE2', 'Ancient prix:&nbsp;&nbsp;');
+define('BACK_TO_TOP', 'Haut de page');
 /* ## add by Seaman ####################################  */
 
 /* aboutus */
