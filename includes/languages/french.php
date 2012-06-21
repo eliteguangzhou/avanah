@@ -271,9 +271,8 @@ Notre mission est de développer des produits qui aident à améliorer la qualit
 
 /* DISTRIBUTORS */
 define('MENU_TITLE_DISTRIBUTOR', 'Distributeurs');
-define('HEADING_TITLE_DISTRIBUTOR', 'Distributeurs');
-define('TEXT_INFORMATION_DISTRIBUTOR', '<h1>Devenir distributeur</h1><br/><br/>
-Vous êtes distributeur de produits de beauté et recherchez une gamme de soins du visage pour compléter votre offre?<br/><br/>
+define('HEADING_TITLE_DISTRIBUTOR', 'Devenir distributeur');
+define('TEXT_INFORMATION_DISTRIBUTOR', 'Vous êtes distributeur de produits de beauté et recherchez une gamme de soins du visage pour compléter votre offre?<br/><br/>
  Vous souhaitez distribuer nos produits auprès des instituts de beauté de votre pays?<br/><br/>
 Contactez nous à contact@avanah-paris.com, nous vous répondons dans les  48h/72h.<br/><br/>
 
