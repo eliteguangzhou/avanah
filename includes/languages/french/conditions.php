@@ -20,9 +20,9 @@ Le site Avanah-paris.com est exploité par les sociétés suivantes : <br/>
 REVOLUSITE SARL au capital de deux cent soixante mille Euros (260.000,00€), enregistrée à SEVRES sous le numéro SIRET 50127787500024 et domiciliée 25 Avenue de L\'Europe 92310 SEVRES, France.
 Mercury Capital Corporation Limited a son siège situé Flat B, 4th Floor, Haven Commercial Building, 6-8 Tsing Fung Street, North Point, Hong Kong, P.R. China et immatriculée au registre du commerce et des sociétés de Hongkong sous le numéro 5069891.
 <br/><br/>
-Pour vous aider dans votre choix des produits les plus adaptés à vos besoins, notre Service Conseil-Avant Vente est à votre disposition par mail du lundi au vendredi de 9 h à 18 h hors jours fériés à cette adresse : contact@avanah-paris.com
+Pour vous aider dans votre choix des produits les plus adaptés à vos besoins, notre Service Conseil-Avant Vente est à votre disposition par mail du lundi au vendredi de 9 h à 18 h hors jours fériés à cette adresse : <b>contact@avanah-paris.com</b>
 <br/><br/>
-Si vous souhaitez suivre l\'exécution de votre commande, exercer votre droit de rétraction ou demander l\'application de la garantie de votre produit, notre service client est à votre disposition par mail du lundi au vendredi de 9 h à 18 h hors jours fériés à cette adresse : contact@avanah-paris.com
+Si vous souhaitez suivre l\'exécution de votre commande, exercer votre droit de rétraction ou demander l\'application de la garantie de votre produit, notre service client est à votre disposition par mail du lundi au vendredi de 9 h à 18 h hors jours fériés à cette adresse : <b>contact@avanah-paris.com</b>
 <br/><br/>
 Par votre commande, vous reconnaissez avoir la pleine capacité juridique à entrer dans ce contrat de vente et vous vous engagez à respecter les présentes conditions générales de vente. 
 <br/><br/>

@@ -15,9 +15,9 @@ define('HEADING_TITLE', 'Conditions of Use');
 
 define('TEXT_INFORMATION', '<h1>PREAMBLE</h1>
 <br/><br/>
-To help you in your choice of products best suited to your needs, our Pre-Sales-Service is available by mail at : contact@avanah-paris.com  from Monday to Friday from 9 am to 18 pm, excluding holidays. 
+To help you in your choice of products best suited to your needs, our Pre-Sales-Service is available by mail at : <b>contact@avanah-paris.com</b>  from Monday to Friday from 9 am to 18 pm, excluding holidays. 
 <br/><br/>
-If you want to follow the execution of your order, use your right of withdrawal or request the application of the warranty of your product, our customer service is available by mail at : contact@avanah-paris.com.com from Monday to Friday from 9 am to 18 pm, excluding holidays. 
+If you want to follow the execution of your order, use your right of withdrawal or request the application of the warranty of your product, our customer service is available by mail at : <b>contact@avanah-paris.com</b>.com from Monday to Friday from 9 am to 18 pm, excluding holidays. 
 <br/><br/>
 We remind you that you can also:
 <ul>

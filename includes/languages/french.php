@@ -274,38 +274,38 @@ define('MENU_TITLE_DISTRIBUTOR', 'Distributeurs');
 define('HEADING_TITLE_DISTRIBUTOR', 'Devenir distributeur');
 define('TEXT_INFORMATION_DISTRIBUTOR', 'Vous êtes distributeur de produits de beauté et recherchez une gamme de soins du visage pour compléter votre offre?<br/><br/>
  Vous souhaitez distribuer nos produits auprès des instituts de beauté de votre pays?<br/><br/>
-Contactez nous à contact@avanah-paris.com, nous vous répondons dans les  48h/72h.<br/><br/>
+Contactez nous à <b>contact@avanah-paris.com</b>, nous vous répondons dans les  48h/72h.<br/><br/>
 
 Nous livrons dans le monde entier :
-<table border="1"><tr>
-<td>New York (USA)
-Black Label
-43 Exchange Place
-New York, NY 10005
+<table border="1" style="text-align:center;"><tr >
+<td style="width:33%;"><b>New York (USA)</b></br>
+Black Label</br>
+43 Exchange Place</br>
+New York, NY 10005</br>
+</td><td style="width:33%;">
+<b>Vancouver (CANADA)</b></br>
+Innovative Therapeutic Technology</br>
+2028 Stephens Street</br>
+Vancouver, BC</br>
+</td><td style="width:33%;">
+<b>Barcelona (SPAIN)</b></br>
+New Look Muntaner</br>
+C/ Muntaner 442</br>
+Barcelona, Spain 08006</br>
+</td></tr><tr><td style="width:33%;">
+<b>Rio de Janeiro (BRAZIL)</b></br>
+Hôtel Santa Teresa</br>
+Rua Almirante Alexandrino 660</br>
+Santa Teresa 20241-260</br> Rio de Janeiro, RJ, Brazil</br>
 </td><td>
-Vancouver (CANADA)
-Innovative Therapeutic Technology
-2028 Stephens Street
-Vancouver, BC
+<b>Sicily (ITALY)</b></br>
+Verdura Golf & Spa Resort </br>
+S.S. 115 Km 131 </br>
+92019 Sciacca  Sicily Italy</br>
 </td><td>
-Barcelona (SPAIN)
-New Look Muntaner
-C/ Muntaner 442
-Barcelona, Spain 08006
-</td></tr><tr><td>
-Rio de Janeiro (BRAZIL)
-Hôtel Santa Teresa
-Rua Almirante Alexandrino 660
-Santa Teresa 20241-260 Rio de Janeiro, RJ, Brazil 
-</td><td>
-Sicily (ITALY)
-Verdura Golf & Spa Resort 
-S.S. 115 Km 131 
-92019 Sciacca  Sicily Italy
-</td><td>
-Moscow (RUSSIA)
-Barvikha Hotel & Spa
-Rublevo-Uspenskoye Shosse, 114/2, Moscow,  143083, Russie
+<b>Moscow (RUSSIA)</b></br>
+Barvikha Hotel & Spa</br>
+Rublevo-Uspenskoye Shosse, 114/2</br> Moscow,  143083, Russie</br>
 </td></tr></table>
 ');
  
@@ -323,7 +323,7 @@ I am honestly astonished at how well the under eye treatments work. It\'s like b
 /* why gold*/
 define('MENU_TITLE_GOLD', 'Pourquoi L\'or ?');
 define('HEADING_TITLE_GOLD', 'Pourquoi L\'or ?');
-define('TEXT_INFORMATION_GOLD', 'à travers l\'histoire l\'or a été reconnue pour ses propriétés de luxe et embellir.<br/><br/>
+define('TEXT_INFORMATION_GOLD', 'À travers l\'histoire l\'or a été reconnue pour ses propriétés de luxe et embellir.<br/><br/>
 Or colloïdal, aussi connu comme «nano-or», est une suspension de sous-micrométrique des particules d\'or dans un fluide invisible à l\'œil nu. Les qualités miraculeuses de nano-or étaient connus depuis le début des temps par les anciens, qui ont consacré énormément de temps et d\'énergie à l\'alchimie et l\'or colloïdal est connu comme un «élixir de vie."<br/><br/>
 Les bénéfices anti-âge d\'or peut être retracée depuis 5000 années jusqu\'à les temps de Cléopâtre, qui a été dit de dormir avec un masque d\'or chaque nuit afin d\'améliorer la souplesse de son teint et de préserver sa luminosité naturelle.<br/><br/>
 En la médecine chinoise antique, Or a été une clé pour les jeunes, des reines utilisées rouleaux de massage d\'or sur leur visage tous les jours. les faciaux d\'or ont également été<br/><br/>
@@ -335,5 +335,5 @@ Par ailleurs, l\'or est étroitement liée avec les électrons présents dans le
 Il est vraiment l\'un de l\'émerveillement de la nature et votre peau, il le mérite.');
 
 /****contactus*******/
-define('CONTACTUS_INTRO','Si vous souhaitez acheter ou distribuer nos produits, merci de nous envoyer un email à contact@avanah-paris.com ou remplir le formulaire ci-dessous : ');
+define('CONTACTUS_INTRO','Si vous souhaitez acheter ou distribuer nos produits, merci de nous envoyer un email à <b>contact@avanah-paris.com</b> ou remplir le formulaire ci-dessous : ');
 ?>

@@ -272,39 +272,41 @@ Our mission is to develop and introduce new, safe, more affordable, and eco-frie
 /* DISTRIBUTORS */
 define('MENU_TITLE_DISTRIBUTOR', 'Become a distributor');
 define('HEADING_TITLE_DISTRIBUTOR', 'Become a distributor');
-define('TEXT_INFORMATION_DISTRIBUTOR', 'If you are interested in becoming a distributor in your area, please send us an email :  contact@avanah-paris.com <br/><br/>
+define('TEXT_INFORMATION_DISTRIBUTOR', 'If you are interested in becoming a distributor in your area, please send us an email :  <b>contact@avanah-paris.com</b> <br/><br/>
 One of our sales agents will contact you shortly with distributor guidelines and requirements.<br/><br/>
 <b>We ship world wide :</b>
-<table border="1"><tr>
-<td>
-New York (USA)
-Black Label
-43 Exchange Place
+<table  border="1" style="text-align:center;"><tr>
+<td style="width:33%;">
+<b>New York (USA)</b><br/>
+Black Label<br/>
+43 Exchange Place<br/>
 New York, NY 10005
-</td><td>
-Vancouver (CANADA)
-Innovative Therapeutic Technology
-2028 Stephens Street
+</td><td style="width:33%;">
+<b>Vancouver (CANADA)</b><br/>
+Innovative Therapeutic Technology<br/>
+2028 Stephens Street<br/>
 Vancouver, BC
-</td><td>
-Barcelona (SPAIN)
-New Look Muntaner
-C/ Muntaner 442
+</td><td style="width:33%;">
+<b>Barcelona (SPAIN)</b><br/>
+New Look Muntaner<br/>
+C/ Muntaner 442<br/>
 Barcelona, Spain 08006
 </td></tr><tr><td>
-Rio de Janeiro (BRAZIL)
-Hôtel Santa Teresa
-Rua Almirante Alexandrino 660
-Santa Teresa 20241-260 Rio de Janeiro, RJ, Brazil 
+<b>Rio de Janeiro (BRAZIL)</b><br/>
+Hôtel Santa Teresa<br/>
+Rua Almirante Alexandrino 660<br/>
+Santa Teresa 20241-260
+<br/>Rio de Janeiro, RJ, Brazil 
 </td><td>
-Sicily (ITALY)
-Verdura Golf & Spa Resort 
-S.S. 115 Km 131 
+<b>Sicily (ITALY)</b><br/>
+Verdura Golf & Spa Resort <br/>
+S.S. 115 Km 131 <br/>
 92019 Sciacca  Sicily Italy
 </td><td>
-Moscow (RUSSIA)
-Barvikha Hotel & Spa
-Rublevo-Uspenskoye Shosse, 114/2, Moscow,  143083, Russie
+<b>Moscow (RUSSIA)</b><br/>
+Barvikha Hotel & Spa<br/>
+Rublevo-Uspenskoye Shosse, 114/2
+<br/>Moscow,  143083, Russie<br/>
 </td></tr></table>
 ');
  
@@ -339,6 +341,6 @@ During Visconti\'s reign in Milan, gold and spices were blended with unpleasant 
 
 
 /****contactus*******/
-define('CONTACTUS_INTRO','If you are interested in buying or becoming a distributor of our products, send us an email contact@avanah-paris.com or complete the form below : ');
+define('CONTACTUS_INTRO','If you are interested in buying or becoming a distributor of our products, send us an email <b>contact@avanah-paris.com</b> or complete the form below : ');
 
 ?>
