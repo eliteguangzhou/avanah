@@ -97,6 +97,7 @@ if (  $current_page == FILENAME_DEFAULT){
 <div id="main_image_background">
 <img src="includes/languages/french/images/banner1.jpg" class="img_front" id="image0">
 <img src="includes/languages/french/images/banner2.jpg" class="img_front" id="image1">
+<img src="includes/languages/french/images/banner3.jpg" class="img_front" id="image2">
 </div>
 
 <?php 
