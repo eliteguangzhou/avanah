@@ -302,6 +302,7 @@ define('BESTSELLERS_IMAGE_HEIGHT', '206');
   require(DIR_WS_LANGUAGES . $language . '.php');
 
 // currency
+$currency = 'EUR';
   if (!tep_session_is_registered('currency') || isset($HTTP_GET_VARS['currency']) || ( (USE_DEFAULT_LANGUAGE_CURRENCY == 'true') && (LANGUAGE_CURRENCY != $currency) ) ) {
     if (!tep_session_is_registered('currency')) tep_session_register('currency');
 
