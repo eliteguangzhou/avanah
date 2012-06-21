@@ -233,7 +233,7 @@ define('TEXT_REVIEW_RATING', 'Rating: %s [%s]');
 define('TEXT_REVIEW_DATE_ADDED', '<span>Date Added:</span> %s');
 define('TEXT_NO_REVIEWS', 'There are currently no product reviews.');
 
-define('TEXT_NO_NEW_PRODUCTS', 'There are currently no products.');
+define('TEXT_NO_NEW_PRODUCTS', 'Il n\'y a aucun produits.');
 
 define('TEXT_UNKNOWN_TAX_RATE', 'Unknown tax rate');
 
@@ -259,16 +259,56 @@ define('BACK_TO_TOP', 'Haut de page');
 /* aboutus */
 define('MENU_TITLE_ABOUTUS', 'Qui sommes-nous');
 define('HEADING_TITLE_ABOUTUS', 'QUI SOMMES-NOUS');
-define('TEXT_INFORMATION_ABOUTUS', 'AVANAH Paris ™ est une marque de produits cosmétiques spécialisées dans les produits à base d\'or " Nano Gold Technology", également connu sous le nom NGT ™.  AVANAH Paris ™ a été créée à Hong Kong en 2008 par deux français, Michel HUYGHUES BEAUFOND et Arnaud REINETTE.<br/><br/>
-Tout a été développé afin de proposer une alternative intelligente à la chirurgie esthétique coûteuse et douloureuse. Jugeant qu\'il y avait un besoin important nous a décidé de développer une gamme de produits  utilisant les Nano Technologies à base d\'or (NGT ™).<br/><br/>
-Après le lancement réussi du Masque d\'origine 24kt Gold collagène, nous avons créé AVANAH Paris ™.<br/><br/>
-Nos principaux clients sont les professionnels du secteur  des salons, spas et professionnels de la beauté. Nous travaillons en étroite collaboration avec  eux et portons une attention particulière à leurs suggestions et remarques. <br/><br/>
-Notre mission est de développer des produits  qui  aident à améliorer la qualité de nos vies à tous. ');
+define('TEXT_INFORMATION_ABOUTUS', 'AVANAH Paris ™ est une marque de produits cosmétiques spécialisées dans les produits à base d\'or " Nano Gold Technology", également connu sous le nom NGT ™. 
+<br/><br/>
+Tout a été développé afin de proposer une alternative intelligente à la chirurgie esthétique coûteuse et douloureuse. Jugeant qu\'il y avait un besoin important nous a décidé de développer une gamme de produits utilisant les Nano Technologies à base d\'or (NGT ™).
+<br/><br/>
+Après le lancement réussi du Masque d\'origine 24kt Gold collagène, nous avons créé AVANAH Paris ™.
+<br/><br/>
+Nos principaux clients sont les professionnels du secteur des salons, spas et professionnels de la beauté. Nous travaillons en étroite collaboration avec eux et portons une attention particulière à leurs suggestions et remarques. 
+<br/><br/>
+Notre mission est de développer des produits qui aident à améliorer la qualité de nos vies à tous.');
 
 /* DISTRIBUTORS */
 define('MENU_TITLE_DISTRIBUTOR', 'Distributeurs');
 define('HEADING_TITLE_DISTRIBUTOR', 'Distributeurs');
-define('TEXT_INFORMATION_DISTRIBUTOR', 'Si vous souhaitez devenir un distributeur dans votre région, contactez nous à contact@avanah-paris.com ou appelez-nous au 0033 970 465 025.');
+define('TEXT_INFORMATION_DISTRIBUTOR', '<h1>Devenir distributeur</h1><br/><br/>
+Vous êtes distributeur de produits de beauté et recherchez une gamme de soins du visage pour compléter votre offre?<br/><br/>
+ Vous souhaitez distribuer nos produits auprès des instituts de beauté de votre pays?<br/><br/>
+Contactez nous à contact@avanah-paris.com, nous vous répondons dans les  48h/72h.<br/><br/>
+
+Nous livrons dans le monde entier :
+<table border="1"><tr>
+<td>New York (USA)
+Black Label
+43 Exchange Place
+New York, NY 10005
+</td><td>
+Vancouver (CANADA)
+Innovative Therapeutic Technology
+2028 Stephens Street
+Vancouver, BC
+</td><td>
+Barcelona (SPAIN)
+New Look Muntaner
+C/ Muntaner 442
+Barcelona, Spain 08006
+</td></tr><tr><td>
+Rio de Janeiro (BRAZIL)
+Hôtel Santa Teresa
+Rua Almirante Alexandrino 660
+Santa Teresa 20241-260 Rio de Janeiro, RJ, Brazil 
+</td><td>
+Sicily (ITALY)
+Verdura Golf & Spa Resort 
+S.S. 115 Km 131 
+92019 Sciacca  Sicily Italy
+</td><td>
+Moscow (RUSSIA)
+Barvikha Hotel & Spa
+Rublevo-Uspenskoye Shosse, 114/2, Moscow,  143083, Russie
+</td></tr></table>
+');
  
 
 /**TESTIMONIALS **/
@@ -295,4 +335,6 @@ Quand l\'or est en contact avec la peau, il stimule la circulation sanguine dans
 Par ailleurs, l\'or est étroitement liée avec les électrons présents dans les cellules qui sont sensibles aux charges électriques; ces ions devient actif sous l\'influence de l\'oret les aider à recréer interrompre les connexions cellulaires. L\'or est bien réputé pour restaurer les propriétés d\'élasticité des tissus perdus. Or réduit également l\'apparition de dommages du soleil et les taches de vieillesse en ralentissant la sécrétion de mélanine.
 Il est vraiment l\'un de l\'émerveillement de la nature et votre peau, il le mérite.');
 
+/****contactus*******/
+define('CONTACTUS_INTRO','Si vous souhaitez acheter ou distribuer nos produits, merci de nous envoyer un email à contact@avanah-paris.com ou remplir le formulaire ci-dessous : ');
 ?>

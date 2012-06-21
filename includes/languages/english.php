@@ -259,16 +259,54 @@ define('BACK_TO_TOP', 'Back to Top');
 /* aboutus */
 define('MENU_TITLE_ABOUTUS', 'About us');
 define('HEADING_TITLE_ABOUTUS', 'About us');
-define('TEXT_INFORMATION_ABOUTUS', 'AVANAH Paris™ is a HONG KONG based cosmetic brand that\'s main focus is Nano Gold Technology, also known as NGT™.  AVANAH Paris™ was formed by Michel HUYGHUES BEAUFOND  and Arnaud REINETTE  in early 2008.<br/><br/>
-A lengthy search for a smart alternative to costly and painful cosmetic surgery turned up with no reliable options. Realizing there was a desperate need for a safe, cost effective solution to cosmetic surgery, our colleague and ourselves decided to develop state-of-the-art techniques for providing Nano Gold Technologies (NGT™) to consumers.<br/><br/>
-After the successful launch of the Original 24KT Gold Collagen Mask, we set forth to create AVANAH Paris™.<br/><br/>
-We exclusively catered to the professional sector of salons, spas and beauty professionals to get a real feel for the needs of their clients. We immediately began to get positive feedback from the results of our masks and we knew exactly where we wanted to go from there. Extremely excited about the results we decided to plan and launch a complete 24KT line in 2010.<br/><br/>
+define('TEXT_INFORMATION_ABOUTUS', 'AVANAH Paris™ is a cosmetic brand specialized in Nano Gold Technology, also known as NGT™. 
+<br/><br/>
+A lengthy search for a smart alternative to costly and painful cosmetic surgery turned up with no reliable options. Realizing there was a desperate need for a safe, cost effective solution to cosmetic surgery, our colleague and ourselves decided to develop state-of-the-art techniques for providing Nano Gold Technologies (NGT™) to consumers.
+<br/><br/>
+After the successful launch of the Original 24KT Gold Collagen Mask, we set forth to create AVANAH Paris™.
+<br/><br/>
+We exclusively catered to the professional sector of salons, spas and beauty professionals to get a real feel for the needs of their clients. We immediately began to get positive feedback from the results of our masks and we knew exactly where we wanted to go from there. Extremely excited about the results we decided to plan and launch a complete 24KT line in 2010.
+<br/><br/>
 Our mission is to develop and introduce new, safe, more affordable, and eco-friendly NGT™ products that will help improve the quality of all our lives. Our unique anti-aging skin care products restore a natural youthful glow and a smoother, suppler appearance. AVANAH Paris™ helps bring back the nourishment your skin needs to be healthier and function more effectively.');
 
 /* DISTRIBUTORS */
-define('MENU_TITLE_DISTRIBUTOR', 'Distributors');
-define('HEADING_TITLE_DISTRIBUTOR', 'Distributors');
-define('TEXT_INFORMATION_DISTRIBUTOR', 'If you are interested in becoming a distributor in your area, please contact contact@avanah-paris.com or call us at 0033 970 465 025. One of our sales agents will contact you shortly with distributor guidelines and requirements.');
+define('MENU_TITLE_DISTRIBUTOR', 'Become a distributor');
+define('HEADING_TITLE_DISTRIBUTOR', 'Become a distributor');
+define('TEXT_INFORMATION_DISTRIBUTOR', 'If you are interested in becoming a distributor in your area, please send us an email :  contact@avanah-paris.com <br/><br/>
+One of our sales agents will contact you shortly with distributor guidelines and requirements.<br/><br/>
+<b>We ship world wide :</b>
+<table border="1"><tr>
+<td>
+New York (USA)
+Black Label
+43 Exchange Place
+New York, NY 10005
+</td><td>
+Vancouver (CANADA)
+Innovative Therapeutic Technology
+2028 Stephens Street
+Vancouver, BC
+</td><td>
+Barcelona (SPAIN)
+New Look Muntaner
+C/ Muntaner 442
+Barcelona, Spain 08006
+</td></tr><tr><td>
+Rio de Janeiro (BRAZIL)
+Hôtel Santa Teresa
+Rua Almirante Alexandrino 660
+Santa Teresa 20241-260 Rio de Janeiro, RJ, Brazil 
+</td><td>
+Sicily (ITALY)
+Verdura Golf & Spa Resort 
+S.S. 115 Km 131 
+92019 Sciacca  Sicily Italy
+</td><td>
+Moscow (RUSSIA)
+Barvikha Hotel & Spa
+Rublevo-Uspenskoye Shosse, 114/2, Moscow,  143083, Russie
+</td></tr></table>
+');
  
 
 
@@ -297,4 +335,10 @@ The alchemists in the 15th century considered gold a favorable remedy for most i
 In Renaissance Venice, the double function of gold as medicine and as a symbol of riches was combined in the custom of serving gold-covered, sugared almonds after the meal in order to strengthen the heart and protect against rheumatism.
 During Visconti\'s reign in Milan, gold and spices were blended with unpleasant things which needed to be swallowed in order to make them more appetizing.
  Embellishing foods with gold is a centuries old tradition that originated in the East, where it served as a symbol of hospitality and wealth. Gold on food and drink was also considered a symbol of respect for special guests at your table.');
+
+
+
+/****contactus*******/
+define('CONTACTUS_INTRO','If you are interested in buying or becoming a distributor of our products, send us an email contact@avanah-paris.com or complete the form below : ');
+
 ?>
