@@ -296,7 +296,13 @@ define('ERROR_FILETYPE_NOT_ALLOWED', 'Error: File upload type not allowed.');
 define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Success: File upload saved successfully.');
 define('WARNING_NO_FILE_UPLOADED', 'Warning: No file uploaded.');
 
-      define('ALL_PAGES', 'all pages.');
-      define('ANY_PAGES', 'any page.');
-      define('ONE_BY_ONE', 'or select one by one :');
-?>
+define('ALL_PAGES', 'all pages.');
+define('ANY_PAGES', 'any page.');
+define('ONE_BY_ONE', 'or select one by one :');
+
+// Discount Code 3.1.1 - start
+define('BOX_CATALOG_DISCOUNT_CODES', 'Discount Codes');
+define('TEXT_DISPLAY_NUMBER_OF_DISCOUNT_CODES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> discount codes)');
+define('IMAGE_NEW_DISCOUNT_CODE', 'New Discount Code');
+// Discount Code 3.1.1 - end
+      ?>

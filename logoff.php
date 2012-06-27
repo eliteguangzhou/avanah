@@ -23,6 +23,11 @@
   tep_session_unregister('customer_country_id');
   tep_session_unregister('customer_zone_id');
   tep_session_unregister('comments');
+  // Discount Code 3.1.1 - start
+  if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true' && tep_session_is_registered('sess_discount_code')) {
+    tep_session_unregister('sess_discount_code');
+  }
+  // Discount Code 3.1.1 - end
 
   $cart->reset();
 

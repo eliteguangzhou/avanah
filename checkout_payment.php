@@ -118,6 +118,21 @@ function rowOverEffect(object) {
 function rowOutEffect(object) {
   if (object.className == 'moduleRowOver') object.className = 'moduleRow';
 }
+<?php
+  // Discount Code 3.1.1 - start
+  if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true') {
+?>
+$(document).ready(function() {
+var a = 0;
+discount_code_process();
+$('#discount_code').blur(function() { if (a == 0) discount_code_process(); a = 0 });
+$("#discount_code").keypress(function(event) { if (event.which == 13) { event.preventDefault(); a = 1; discount_code_process() } });
+function discount_code_process() { if ($("#discount_code").val() != "") { $("#discount_code").attr("readonly", "readonly"); $("#discount_code_status").empty().append('<?php echo tep_image(DIR_WS_ICONS . 'dc_progress.gif'); ?>'); $.post("discount_code.php", { discount_code: $("#discount_code").val() }, function(data) { data == 1 ? $("#discount_code_status").empty().append('<?php echo tep_image(DIR_WS_ICONS . 'dc_success.gif'); ?>') : $("#discount_code_status").empty().append('<?php echo tep_image(DIR_WS_ICONS . 'dc_failed.gif'); ?>'); $("#discount_code").removeAttr("readonly") }); } }
+});
+<?php
+  }
+  // Discount Code 3.1.1 - end
+?>
 //--></script>
 <?php echo $payment_modules->javascript_validation(); ?>
 
@@ -265,7 +280,26 @@ function rowOutEffect(object) {
   </div>
 
   <h3><?php echo TABLE_HEADING_COMMENTS; ?></h3>
+<?php
+  // Discount Code 3.1.1 - start
+  if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true') {
+?>
 
+  <h2><?php echo TEXT_DISCOUNT_CODE; ?></h2>
+
+  <div class="contentText">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="middle" height="25"><?php echo tep_draw_input_field('discount_code', $sess_discount_code, 'id="discount_code" size="10"'); ?></td>
+        <td width="5"></td>
+        <td valign="middle"><div id="discount_code_status"></div></td>
+      </tr>
+    </table>
+  </div>
+<?php
+  }
+  // Discount Code 3.1.1 - end
+?>
   <div class="contentInfoText">
     <?php echo tep_draw_textarea_field('comments', 'soft', '60', '5', $comments); ?>
   </div>
