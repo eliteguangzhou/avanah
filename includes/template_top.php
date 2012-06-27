@@ -76,13 +76,7 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
     	<div class="row_1 ofh">        
 				<?php require(DIR_WS_INCLUDES . 'header.php'); ?>
 				<?php $customer_name = tep_session_is_registered('customer_id') ? ucfirst($_SESSION['customer_last_name']) .' '.ucfirst($_SESSION['customer_first_name']) : ''; ?>
-                 <span style="float:right;display: inline-block;
-width: 285px;
-height: 97px;
-position: absolute;
-left: 70%;
-margin-left: 0px;
-top: 10px;"><?php echo $customer_name ? HEADER_HELLO . ' ' . $customer_name . '<br />'.
+                 <span id="login_header"><?php echo $customer_name ? HEADER_HELLO . ' ' . $customer_name . '<br />'.
 '<a class="banner_login" href="'.tep_href_link('logoff.php').'">'.HEADER_LOGOUT.'</a>' : '<a class="banner_login" href="'.tep_href_link('login.php').'">'.HEADER_LOGIN.'</a>';
 ?></td>
 </span>

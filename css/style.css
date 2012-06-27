@@ -570,3 +570,18 @@ h2.price								{padding: 0px 0px 14px 0px; overflow:hidden;}
 #tdb3 {
 	display:none;
 	}
+	
+	
+/******login span************/
+#login_header {
+    float:right;
+    display: inline-block;
+width: 185px;
+height: 97px;
+position: absolute;
+left: 67%;
+top:0px;
+padding-top:30px;
+margin-left: 0px;
+text-align:right;
+}
