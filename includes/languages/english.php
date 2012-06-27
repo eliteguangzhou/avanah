@@ -347,4 +347,10 @@ define('CONTACTUS_INTRO','If you are interested in buying or becoming a distribu
 define('TEXT_DISCOUNT', 'Discount');
 define('TEXT_DISCOUNT_CODE', 'Discount Code');
 // Discount Code 3.1.1 - end
+
+/*login/logout*/
+define('HEADER_LOGIN','Login');
+define('HEADER_HELLO','Hello');
+define('HEADER_LOGOUT','Logout');
+
 ?>

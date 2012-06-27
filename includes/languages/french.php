@@ -336,4 +336,9 @@ Il est vraiment l\'un de l\'émerveillement de la nature et votre peau, il le m�
 
 /****contactus*******/
 define('CONTACTUS_INTRO','Si vous souhaitez acheter ou distribuer nos produits, merci de nous envoyer un email à <b>contact@avanah-paris.com</b> ou remplir le formulaire ci-dessous : ');
+
+/*login/logout*/
+define('HEADER_LOGIN','Se connecter');
+define('HEADER_HELLO','Bonjour');
+define('HEADER_LOGOUT','Se deconnecter');
 ?>

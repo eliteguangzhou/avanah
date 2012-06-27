@@ -76,6 +76,7 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
   	
     	<div class="row_1 ofh">        
 				<?php require(DIR_WS_INCLUDES . 'header.php'); ?>
+<<<<<<< HEAD
                 <span style="float:right;display: inline-block;
 width: 285px;
 height: 97px;
@@ -84,6 +85,20 @@ left: 50%;
 margin-left: -476px;
 top: 10px;"><?php echo $customer_name ? HEADER_HELLO . ' ' . $customer_name . '<br />'.(isset($new_discount) && $new_discount > 0 ? constant('HEADER_NEW_DISCOUNT'.(isset($new_discount) && $new_discount > 1 ? 'S' : '')) . '<br />' : '').'<a class="banner_login" href="'.tep_href_link('logoff.php').'">'.HEADER_LOGOUT.'</a>' : '<a class="banner_login" href="'.tep_href_link('login.php').'">'.HEADER_LOGIN.'</a>'; ?></td>
   </span>
+=======
+				<?php $customer_name = tep_session_is_registered('customer_id') ? ucfirst($_SESSION['customer_last_name']) .' '.ucfirst($_SESSION['customer_first_name']) : ''; ?>
+                 <span style="float:right;display: inline-block;
+width: 285px;
+height: 97px;
+position: absolute;
+left: 70%;
+margin-left: 0px;
+top: 10px;"><?php echo $customer_name ? HEADER_HELLO . ' ' . $customer_name . '<br />'.
+'<a class="banner_login" href="'.tep_href_link('logoff.php').'">'.HEADER_LOGOUT.'</a>' : '<a class="banner_login" href="'.tep_href_link('login.php').'">'.HEADER_LOGIN.'</a>';
+?></td>
+</span>
+  
+>>>>>>> login
                 <a class="logo" href="<?php echo tep_href_link(FILENAME_DEFAULT);?>"><?php echo tep_image(DIR_WS_IMAGES.'store_logo.png', STORE_NAME, '', '', '')?></a>
                 
                 
