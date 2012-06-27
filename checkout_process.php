@@ -241,6 +241,17 @@
 
 // lets start with the email confirmation
   $email_order = STORE_NAME . "\n" . 
+  // Discount Code 3.1.1 - start
+  if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true' && !empty($discount)) {
+    $discount_codes_query = tep_db_query("select discount_codes_id from " . TABLE_DISCOUNT_CODES . " where discount_codes = '" . tep_db_input($sess_discount_code) . "'");
+    $discount_codes = tep_db_fetch_array($discount_codes_query);
+
+    tep_db_perform(TABLE_CUSTOMERS_TO_DISCOUNT_CODES, array('customers_id' => $customer_id, 'discount_codes_id' => $discount_codes['discount_codes_id']));
+    tep_db_query("update " . TABLE_DISCOUNT_CODES . " set number_of_orders = number_of_orders + 1 where discount_codes_id = '" . (int)$discount_codes['discount_codes_id'] . "'");
+
+    tep_session_unregister('sess_discount_code');
+  }
+  // Discount Code 3.1.1 - end
                  EMAIL_SEPARATOR . "\n" . 
                  EMAIL_TEXT_ORDER_NUMBER . ' ' . $insert_id . "\n" .
                  EMAIL_TEXT_INVOICE_URL . ' ' . tep_href_link(FILENAME_ACCOUNT_HISTORY_INFO, 'order_id=' . $insert_id, 'SSL', false) . "\n" .

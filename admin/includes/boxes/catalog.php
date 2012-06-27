@@ -43,6 +43,13 @@
         'title' => BOX_CATALOG_PRODUCTS_EXPECTED,
         'link' => tep_href_link(FILENAME_PRODUCTS_EXPECTED)
       )
+      // Discount Code 3.1.1 - start
+      array(
+        'code' => FILENAME_DISCOUNT_CODES,
+        'title' => BOX_CATALOG_DISCOUNT_CODES,
+        'link' => tep_href_link(FILENAME_DISCOUNT_CODES)
+      ),
+      // Discount Code 3.1.1 - end
     )
   );
 ?>

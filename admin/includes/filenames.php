@@ -52,5 +52,6 @@
   define('FILENAME_TAX_RATES', 'tax_rates.php');
   define('FILENAME_VERSION_CHECK', 'version_check.php');
   define('FILENAME_WHOS_ONLINE', 'whos_online.php');
-  define('FILENAME_ZONES', 'zones.php');      
+  define('FILENAME_ZONES', 'zones.php');    
+  define('FILENAME_DISCOUNT_CODES', 'discount_codes.php'); // Discount Code 3.1.1
 ?>

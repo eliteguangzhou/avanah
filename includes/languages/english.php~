@@ -344,14 +344,14 @@ During Visconti\'s reign in Milan, gold and spices were blended with unpleasant 
 define('CONTACTUS_INTRO','If you are interested in buying or becoming a distributor of our products, send us an email <b>contact@avanah-paris.com</b> or complete the form below : ');
 
 <<<<<<< HEAD
-// Discount Code 3.1.1 - start
-define('TEXT_DISCOUNT', 'Discount');
-define('TEXT_DISCOUNT_CODE', 'Discount Code');
-// Discount Code 3.1.1 - end
-=======
 /*login/logout*/
 define('HEADER_LOGIN','Login');
 define('HEADER_HELLO','Hello');
 define('HEADER_LOGOUT','Logout');
->>>>>>> login
+=======
+// Discount Code 3.1.1 - start
+define('TEXT_DISCOUNT', 'Discount');
+define('TEXT_DISCOUNT_CODE', 'Discount Code');
+// Discount Code 3.1.1 - end
+>>>>>>> change for discount
 ?>
