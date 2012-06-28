@@ -142,7 +142,7 @@
             <?php 
             include(DIR_WS_CLASSES . 'order.php');
     $order = new order;
-               include(DIR_WS_MODULES . 'order_total/ot_discount.php');
+        include(DIR_WS_MODULES . 'order_total/ot_discount.php');
                 $ot_discount = new ot_discount;
                 $ot_discount->process();
             global $discount;
@@ -203,7 +203,9 @@
    $quotes = $shipping_modules->quote();
    $shipping_t = $quotes[0]['methods'][0]['cost'];
 echo $currencies->format(tep_add_tax($quotes[0]['methods'][0]['cost'], (isset($quotes[0]['tax']) ? $quotes[0]['tax'] : 0))) . tep_draw_hidden_field('shipping', $quotes[0]['id'] . '_' . $quotes[0]['methods'][0]['id']); 
-  
+ $v = $order->info['shipping_cost'];
+ $order->info['shipping_cost'] = $shipping_t;
+ $order->info['total'] += ($shipping_t - $v);
   ?>
                 </td>
              </tr>
@@ -214,14 +216,33 @@ echo $currencies->format(tep_add_tax($quotes[0]['methods'][0]['cost'], (isset($q
                 </td>
                 <td  class="productSpecialPrice">
                 <?php 
-                    echo $currencies->format(tep_add_tax($order->info['total']+$shipping_t,0));
+                    echo $currencies->format(tep_add_tax($order->info['total'],0));
     ?>
                 </td>
              </tr>
     </table>
+    
+    
+    <br/>
   <!--  <div class="prods_hseparator"><?php /*echo tep_draw_separator('spacer.gif', '1', '1');*/?></div> -->
-
-
+<?php
+  // Discount Code 3.1.1 - start
+  if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true') {
+?>
+  <h3><?php echo TEXT_DISCOUNT_CODE; ?></h3>
+  <div class="contentText">
+    <table border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="middle" height="25"><?php echo tep_draw_input_field('discount_code', $sess_discount_code, 'id="discount_code" size="10"'); ?></td>
+        <td width="5"></td>
+        <td valign="middle"><div id="discount_code_status"></div></td>
+      </tr>
+    </table>
+  </div>
+<?php
+  }
+  // Discount Code 3.1.1 - end
+?>
 
 <?php
     if ($any_out_of_stock == 1) {
@@ -288,7 +309,22 @@ echo $currencies->format(tep_add_tax($quotes[0]['methods'][0]['cost'], (isset($q
 			 row_list.each(function(){
 				 new equalHeights($('#' + $(this).attr("id")));
 			  });			 			 			  			  			  			  			   
-        })      
+        })  
+        <?php
+  // Discount Code 3.1.1 - start
+  if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true') {
+?>
+$(document).ready(function() {
+var a = 0;
+discount_code_process();
+$('#discount_code').blur(function() { if (a == 0) discount_code_process(); a = 0 });
+$("#discount_code").keypress(function(event) { if (event.which == 13) { event.preventDefault(); a = 1; discount_code_process() } });
+function discount_code_process() { if ($("#discount_code").val() != "") { $("#discount_code").attr("readonly", "readonly"); $("#discount_code_status").empty().append('<?php echo tep_image(DIR_WS_ICONS . 'dc_progress.gif'); ?>'); $.post("discount_code.php", { discount_code: $("#discount_code").val() }, function(data) { data == 1 ? $("#discount_code_status").empty().append('<?php echo tep_image(DIR_WS_ICONS . 'dc_success.gif'); ?>') : $("#discount_code_status").empty().append('<?php echo tep_image(DIR_WS_ICONS . 'dc_failed.gif'); ?>'); $("#discount_code").removeAttr("readonly") }); } }
+});
+<?php
+  }
+  // Discount Code 3.1.1 - end
+?>
 </script>
 <?php echo tep_draw_content_bottom();?>
 

@@ -117,6 +117,7 @@
       }
 
       if (!empty($discount)) {
+      
         $order->info['total'] -= array_sum($tax_discount);
         $order->info['total'] -= $discount;
 
