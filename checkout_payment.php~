@@ -280,7 +280,6 @@ function discount_code_process() { if ($("#discount_code").val() != "") { $("#di
   </div>
 
 <<<<<<< HEAD
- 
 =======
   <h3><?php echo TABLE_HEADING_COMMENTS; ?></h3>
 >>>>>>> e8eacdb4c31bfac6cc603a94285651fbbe188ad6
@@ -289,7 +288,6 @@ function discount_code_process() { if ($("#discount_code").val() != "") { $("#di
   if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true') {
 ?>
 <<<<<<< HEAD
-
   <h3><?php echo TEXT_DISCOUNT_CODE; ?></h3>
 
 =======
@@ -309,12 +307,10 @@ function discount_code_process() { if ($("#discount_code").val() != "") { $("#di
 <?php
   }
   // Discount Code 3.1.1 - end
-<<<<<<< HEAD
-  print_r($sess_discount_code);
 ?>
+<<<<<<< HEAD
  <h3><?php echo TABLE_HEADING_COMMENTS; ?></h3>
 =======
-?>
 >>>>>>> e8eacdb4c31bfac6cc603a94285651fbbe188ad6
   <div class="contentInfoText">
     <?php echo tep_draw_textarea_field('comments', 'soft', '60', '5', $comments); ?>

@@ -353,11 +353,8 @@ define('HEADER_LOGIN','Login');
 define('HEADER_HELLO','Hello');
 define('HEADER_LOGOUT','Logout');
 
-<<<<<<< HEAD
 // Discount Code 3.1.1 - start
 define('TEXT_DISCOUNT', 'Discount');
 define('TEXT_DISCOUNT_CODE', 'Discount Code');
 // Discount Code 3.1.1 - end
-=======
->>>>>>> e8eacdb4c31bfac6cc603a94285651fbbe188ad6
 ?>

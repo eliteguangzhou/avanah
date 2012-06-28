@@ -284,7 +284,6 @@ function discount_code_process() { if ($("#discount_code").val() != "") { $("#di
   if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true') {
 ?>
   <h3><?php echo TEXT_DISCOUNT_CODE; ?></h3>
-
   <div class="contentText">
     <table border="0" cellspacing="0" cellpadding="0">
       <tr>
