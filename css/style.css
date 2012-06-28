@@ -186,7 +186,7 @@ tr .cart_price							{border:1px solid #e1e1e1; border-width:0px 1px 1px 1px;}
 .cart .row > td							{padding-bottom:11px;}
 /* ************************************************************************************* */
 .cart_total2     td                                                      {font-size:1em; font-weight:bold;
-                                                                             text-transform:uppercase;padding:10px; text-align:center; border:1px solid #e1e1e1; border-width:1px 0px 0px 0px;}
+                                                                             text-transform:uppercase;padding:10px; text-align:center; border:1px solid #e1e1e1; border-width:1px 0px 0px 0px;vertical-align: middle;}
 .cart_total2 .bg_button2,
 .cart_total2 .bg_button2-act                             {margin-top:8px;}
 .cart_total2     td.cart_total2_title              {border-width: 1px 1px 0px 0px;}
