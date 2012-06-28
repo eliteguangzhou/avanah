@@ -77,6 +77,7 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
     	<div class="row_1 ofh">        
 				<?php require(DIR_WS_INCLUDES . 'header.php'); ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> t
@@ -85,6 +86,15 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
 '<a class="banner_login" href="'.tep_href_link('logoff.php').'">'.HEADER_LOGOUT.'</a>' : '<a class="banner_login" href="'.tep_href_link('login.php').'">'.HEADER_LOGIN.'</a>';
 ?></td>
 </span>
+=======
+                <span style="float:right;display: inline-block;
+width: 285px;
+height: 97px;
+position: absolute;
+left: 50%;
+margin-left: -476px;
+top: 10px;">Se logguer</span>
+>>>>>>> e8eacdb4c31bfac6cc603a94285651fbbe188ad6
                 <a class="logo" href="<?php echo tep_href_link(FILENAME_DEFAULT);?>"><?php echo tep_image(DIR_WS_IMAGES.'store_logo.png', STORE_NAME, '', '', '')?></a>
                 
                 
