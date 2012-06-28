@@ -139,7 +139,7 @@
 
 // get all available shipping quotes
   $quotes = $shipping_modules->quote();
-
+ print_r($quotes); 
 // if no shipping method has been selected, automatically select the cheapest method.
 // if the modules status was changed when none were available, to save on implementing
 // a javascript force-selection method, also automatically select the cheapest shipping
@@ -289,13 +289,15 @@ function rowOutEffect(object) {
             }
 ?>
 
-        <td width="75%" style="padding-left: 15px;"><?php echo $quotes[$i]['methods'][$j]['title']; ?></td>
+        <td width="75%" style="padding-left: 15px;"><?php 
+       echo $quotes[$i]['methods'][$j]['title']; ?></td>
 
 <?php
             if ( ($n > 1) || ($n2 > 1) ) {
 ?>
 
-        <td><?php echo $currencies->format(tep_add_tax($quotes[$i]['methods'][$j]['cost'], (isset($quotes[$i]['tax']) ? $quotes[$i]['tax'] : 0))); ?></td>
+        <td><?php 
+        echo $currencies->format(tep_add_tax($quotes[$i]['methods'][$j]['cost'], (isset($quotes[$i]['tax']) ? $quotes[$i]['tax'] : 0))); ?></td>
         <td align="right"><?php echo tep_draw_radio_field('shipping', $quotes[$i]['id'] . '_' . $quotes[$i]['methods'][$j]['id'], $checked); ?></td>
 
 <?php

@@ -279,13 +279,13 @@ function discount_code_process() { if ($("#discount_code").val() != "") { $("#di
 
   </div>
 
-  <h3><?php echo TABLE_HEADING_COMMENTS; ?></h3>
+ 
 <?php
   // Discount Code 3.1.1 - start
   if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true') {
 ?>
 
-  <h2><?php echo TEXT_DISCOUNT_CODE; ?></h2>
+  <h3><?php echo TEXT_DISCOUNT_CODE; ?></h3>
 
   <div class="contentText">
     <table border="0" cellspacing="0" cellpadding="0">
@@ -299,7 +299,9 @@ function discount_code_process() { if ($("#discount_code").val() != "") { $("#di
 <?php
   }
   // Discount Code 3.1.1 - end
+  print_r($sess_discount_code);
 ?>
+ <h3><?php echo TABLE_HEADING_COMMENTS; ?></h3>
   <div class="contentInfoText">
     <?php echo tep_draw_textarea_field('comments', 'soft', '60', '5', $comments); ?>
   </div>

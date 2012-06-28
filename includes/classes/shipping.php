@@ -76,13 +76,15 @@
           }
         }
 
+       
         $size = sizeof($include_quotes);
         for ($i=0; $i<$size; $i++) {
           $quotes = $GLOBALS[$include_quotes[$i]]->quote($method);
-          if (is_array($quotes)) $quotes_array[] = $quotes;
+          if (is_array($quotes)) {
+            $quotes_array[] = $quotes;
+          }
         }
       }
-
       return $quotes_array;
     }
 

@@ -139,6 +139,85 @@
             <td><?php echo SUB_TITLE_SUB_TOTAL; ?></td>
             <td class="productSpecialPrice"><?php echo $currencies->format($cart->show_total()); ?></td>
         </tr>
+            <?php 
+            include(DIR_WS_CLASSES . 'order.php');
+    $order = new order;
+               include(DIR_WS_MODULES . 'order_total/ot_discount.php');
+                $ot_discount = new ot_discount;
+                $ot_discount->process();
+            global $discount;
+            
+            if ($sess_discount_code){
+            echo '<tr class="cart_total"><td>&nbsp;</td><td>';
+            echo $ot_discount->output[0]['title'].'</td>';
+            echo '<td >-'.$ot_discount->output[0]['text'].'</td>';
+            echo '<pre>';
+          //  print_r($order);
+            echo '</pre>';
+            
+            echo '</tr>';
+            }
+            ?>
+            <tr class="cart_total">
+                <td>&nbsp;</td>
+                <td  >
+                    <?php echo SHIPPING_COST; ?>
+                </td>
+                <td class="productSpecialPrice">
+                <?php 
+                $total_weight = $cart->show_weight();
+  $total_count = $cart->count_contents();
+                // load all enabled shipping modules
+  require(DIR_WS_CLASSES . 'shipping.php');
+  $shipping_modules = new shipping;
+       if (!tep_session_is_registered('shipping')) tep_session_register('shipping');
+
+    if ( (tep_count_shipping_modules() > 0) || ($free_shipping == true) ) {
+      if ( (isset($HTTP_POST_VARS['shipping'])) && (strpos($HTTP_POST_VARS['shipping'], '_')) ) {
+        $shipping = $HTTP_POST_VARS['shipping'];
+
+        list($module, $method) = explode('_', $shipping);
+        if ( is_object($$module) || ($shipping == 'free_free') ) {
+          if ($shipping == 'free_free') {
+            $quote[0]['methods'][0]['title'] = FREE_SHIPPING_TITLE;
+            $quote[0]['methods'][0]['cost'] = '0';
+          } else {
+            $quote = $shipping_modules->quote($method, $module);
+          }
+          if (isset($quote['error'])) {
+            tep_session_unregister('shipping');
+          } else {
+            if ( (isset($quote[0]['methods'][0]['title'])) && (isset($quote[0]['methods'][0]['cost'])) ) {
+              $shipping = array('id' => $shipping,
+                                'title' => (($free_shipping == true) ?  $quote[0]['methods'][0]['title'] : $quote[0]['module'] . ' (' . $quote[0]['methods'][0]['title'] . ')'),
+                                'cost' => $quote[0]['methods'][0]['cost']);
+
+              tep_redirect(tep_href_link(FILENAME_CHECKOUT_PAYMENT, '', 'SSL'));
+            }
+          }
+        } else {
+          tep_session_unregister('shipping');
+        }
+      }
+    }
+   $quotes = $shipping_modules->quote();
+   $shipping_t = $quotes[0]['methods'][0]['cost'];
+echo $currencies->format(tep_add_tax($quotes[0]['methods'][0]['cost'], (isset($quotes[0]['tax']) ? $quotes[0]['tax'] : 0))) . tep_draw_hidden_field('shipping', $quotes[0]['id'] . '_' . $quotes[0]['methods'][0]['id']); 
+  
+  ?>
+                </td>
+             </tr>
+            <tr class="cart_total2">
+                <td>&nbsp;</td>
+                <td class="cart_total2_title" >
+                    <?php echo TOTAL; ?>
+                </td>
+                <td  class="productSpecialPrice">
+                <?php 
+                    echo $currencies->format(tep_add_tax($order->info['total']+$shipping_t,0));
+    ?>
+                </td>
+             </tr>
     </table>
   <!--  <div class="prods_hseparator"><?php /*echo tep_draw_separator('spacer.gif', '1', '1');*/?></div> -->
 

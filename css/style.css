@@ -185,6 +185,13 @@ tr .cart_price							{border:1px solid #e1e1e1; border-width:0px 1px 1px 1px;}
 .cart_total	td							{vertical-align:middle;}
 .cart .row > td							{padding-bottom:11px;}
 /* ************************************************************************************* */
+.cart_total2     td                                                      {font-size:1em; font-weight:bold;
+                                                                             text-transform:uppercase;padding:10px; text-align:center; border:1px solid #e1e1e1; border-width:1px 0px 0px 0px;}
+.cart_total2 .bg_button2,
+.cart_total2 .bg_button2-act                             {margin-top:8px;}
+.cart_total2     td.cart_total2_title              {border-width: 1px 1px 0px 0px;}
+.cart_total2       .productSpecialPrice          {color:#d0015d;font-size:1.7em; line-height:2.0em; font-weight:normal;}
+/* ************************************************************************************* */
 /* ************************************************************************************* */
 .result1_top									{margin:14px 0px 0px 0px;border:1px solid #fff; border-width:1px 0px 1px 0px; background:#fbfbfb}
 .result1_bottom									{border-bottom:0px solid #e1e1e1;}
