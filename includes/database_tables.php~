@@ -59,8 +59,4 @@
   define('TABLE_ZONES_TO_GEO_ZONES', 'zones_to_geo_zones');
   define('TABLE_WHOS_ONLINE', 'whos_online');
   define('TABLE_ZONES', 'zones');
-    // Discount Code 3.1.1 - start
-  define('TABLE_CUSTOMERS_TO_DISCOUNT_CODES', 'customers_to_discount_codes');
-  define('TABLE_DISCOUNT_CODES', 'discount_codes');
-  // Discount Code 3.1.1 - end
 ?>

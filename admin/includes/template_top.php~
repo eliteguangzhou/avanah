@@ -37,15 +37,7 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
 <link rel="stylesheet" type="text/css" href="includes/stylesheet.css">
 <script type="text/javascript" src="includes/general.js"></script>
 </head>
-<?php
-  // Discount Code 3.1.1 - start
-  if (basename($PHP_SELF) == FILENAME_DISCOUNT_CODES && isset($action) && $action == 'new') {
-    echo '<body onload="onload();">';
-  } else {
-    echo '<body>';
-  }
-  // Discount Code 3.1.1 - end
-?>
+<body>
 
 <?php require(DIR_WS_INCLUDES . 'header.php'); ?>
 

@@ -82,6 +82,7 @@
           $quotes = $GLOBALS[$include_quotes[$i]]->quote($method);
           if (is_array($quotes)) {
             $quotes_array[] = $quotes;
+             print_r($include_quotes);
           }
         }
       }

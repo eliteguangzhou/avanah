@@ -42,7 +42,7 @@
         'code' => FILENAME_PRODUCTS_EXPECTED,
         'title' => BOX_CATALOG_PRODUCTS_EXPECTED,
         'link' => tep_href_link(FILENAME_PRODUCTS_EXPECTED)
-      ),
+      )
       // Discount Code 3.1.1 - start
       array(
         'code' => FILENAME_DISCOUNT_CODES,

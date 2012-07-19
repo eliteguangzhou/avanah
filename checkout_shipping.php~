@@ -114,6 +114,7 @@
             $quote[0]['methods'][0]['cost'] = '0';
           } else {
             $quote = $shipping_modules->quote($method, $module);
+            print_r($quote);
           }
           if (isset($quote['error'])) {
             tep_session_unregister('shipping');
