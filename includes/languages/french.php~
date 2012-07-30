@@ -341,4 +341,6 @@ define('CONTACTUS_INTRO','Si vous souhaitez acheter ou distribuer nos produits, 
 define('HEADER_LOGIN','Se connecter');
 define('HEADER_HELLO','Bonjour');
 define('HEADER_LOGOUT','Se deconnecter');
+
+define('SHIPPING_COST','Frais de port');
 ?>
