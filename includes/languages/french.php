@@ -52,7 +52,7 @@ define('TITLE', STORE_NAME);
 // header text in includes/header.php
 define('HEADER_TITLE_CREATE_ACCOUNT', 'Cr&eacute;er un compte');
 define('HEADER_TITLE_MY_ACCOUNT', 'Mon compte');
-define('HEADER_TITLE_CART_CONTENTS', 'Cart Contents');
+define('HEADER_TITLE_CART_CONTENTS', 'Mon panier');
 define('HEADER_TITLE_CHECKOUT', 'Checkout');
 define('HEADER_TITLE_TOP', 'Top');
 define('HEADER_TITLE_CATALOG', 'Catalogue');
@@ -341,4 +341,6 @@ define('CONTACTUS_INTRO','Si vous souhaitez acheter ou distribuer nos produits, 
 define('HEADER_LOGIN','Se connecter');
 define('HEADER_HELLO','Bonjour');
 define('HEADER_LOGOUT','Se deconnecter');
+
+define('SHIPPING_COST','Frais de port');
 ?>

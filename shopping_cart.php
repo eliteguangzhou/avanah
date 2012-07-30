@@ -120,7 +120,7 @@
 							'<td class="cart_update"><div class="name name_padd equal-height">&nbsp;</div>' . tep_draw_input_field('cart_quantity[]', $products[$i]['quantity'], 'size="6"').'
 									<div class="buttonSet">
 											'. tep_draw_hidden_field('products_id[]', $products[$i]['id']).''.tep_draw_button_top() . '' . tep_draw_button(IMAGE_BUTTON_UPDATE, 'refresh') .'' .tep_draw_button_bottom() . '<br /><br /><br /><br />
-											' .tep_draw_button_top() . '<a id="tdb1" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary ui-priority-secondary" href="' . tep_href_link(FILENAME_SHOPPING_CART, 'products_id=' . $products[$i]['id'] . '&action=remove_product') . '"><span class="ui-button-icon-primary ui-icon ui-icon-trash"></span><span class="ui-button-text">remove</span></a>' .tep_draw_button_bottom() . '
+											' .tep_draw_button_top() . '<a id="tdb1" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-primary ui-priority-secondary" href="' . tep_href_link(FILENAME_SHOPPING_CART, 'products_id=' . $products[$i]['id'] . '&action=remove_product') . '"><span class="ui-button-icon-primary ui-icon ui-icon-trash"></span><span class="ui-button-text">'.TABLE_HEADING_REMOVE.'</span></a>' .tep_draw_button_bottom() . '
 									</div></td>'.
 											
 							'<td class="cart_price"><div class="name name_padd equal-height">&nbsp;</div><span class="productSpecialPrice">' . $currencies->display_price($products[$i]['final_price'], tep_get_tax_rate($products[$i]['tax_class_id']), $products[$i]['quantity']) . '</span></td>';

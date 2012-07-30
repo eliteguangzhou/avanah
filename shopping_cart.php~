@@ -309,7 +309,22 @@ echo $currencies->format(tep_add_tax($quotes[0]['methods'][0]['cost'], (isset($q
 			 row_list.each(function(){
 				 new equalHeights($('#' + $(this).attr("id")));
 			  });			 			 			  			  			  			  			   
-        })      
+        })  
+        <?php
+  // Discount Code 3.1.1 - start
+  if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true') {
+?>
+$(document).ready(function() {
+var a = 0;
+discount_code_process();
+$('#discount_code').blur(function() { if (a == 0) discount_code_process(); a = 0 });
+$("#discount_code").keypress(function(event) { if (event.which == 13) { event.preventDefault(); a = 1; discount_code_process() } });
+function discount_code_process() { if ($("#discount_code").val() != "") { $("#discount_code").attr("readonly", "readonly"); $("#discount_code_status").empty().append('<?php echo tep_image(DIR_WS_ICONS . 'dc_progress.gif'); ?>'); $.post("discount_code.php", { discount_code: $("#discount_code").val() }, function(data) { data == 1 ? $("#discount_code_status").empty().append('<?php echo tep_image(DIR_WS_ICONS . 'dc_success.gif'); ?>') : $("#discount_code_status").empty().append('<?php echo tep_image(DIR_WS_ICONS . 'dc_failed.gif'); ?>'); $("#discount_code").removeAttr("readonly") }); } }
+});
+<?php
+  }
+  // Discount Code 3.1.1 - end
+?>
 </script>
 <?php echo tep_draw_content_bottom();?>
 

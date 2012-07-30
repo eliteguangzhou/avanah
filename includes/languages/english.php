@@ -270,7 +270,7 @@ We exclusively catered to the professional sector of salons, spas and beauty pro
 Our mission is to develop and introduce new, safe, more affordable, and eco-friendly NGT™ products that will help improve the quality of all our lives. Our unique anti-aging skin care products restore a natural youthful glow and a smoother, suppler appearance. AVANAH Paris™ helps bring back the nourishment your skin needs to be healthier and function more effectively.');
 
 /* DISTRIBUTORS */
-define('MENU_TITLE_DISTRIBUTOR', 'Become a distributor');
+define('MENU_TITLE_DISTRIBUTOR', 'Distributor');
 define('HEADING_TITLE_DISTRIBUTOR', 'Become a distributor');
 define('TEXT_INFORMATION_DISTRIBUTOR', 'If you are interested in becoming a distributor in your area, please send us an email :  <b>contact@avanah-paris.com</b> <br/><br/>
 One of our sales agents will contact you shortly with distributor guidelines and requirements.<br/><br/>
@@ -307,6 +307,20 @@ S.S. 115 Km 131 <br/>
 Barvikha Hotel & Spa<br/>
 Rublevo-Uspenskoye Shosse, 114/2
 <br/>Moscow,  143083, Russie<br/>
+</td></tr><tr><td>
+<b>Afrique / Moyen Orient</b><br/>
+UTOPIA SA<br/>
+Tel : +961 71 06 97 88<br/>
+Contact M. Atrache Chadi<br/>
+chady@avanah-paris.com <br/>
+</td><td>
+<b>Sicily (ITALY)</b><br/>
+<b>Afrique / Middle East</b><br/>
+UTOPIA SA<br/>
+Tel : +961 71 06 97 88<br/>
+Contact M. Atrache Chadi<br/>
+chady@avanah-paris.com <br/>
+</td><td>
 </td></tr></table>
 ');
  
