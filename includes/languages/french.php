@@ -336,16 +336,22 @@ I am honestly astonished at how well the under eye treatments work. It\'s like b
 /* why gold*/
 define('MENU_TITLE_GOLD', 'Pourquoi L\'or ?');
 define('HEADING_TITLE_GOLD', 'Pourquoi L\'or ?');
-define('TEXT_INFORMATION_GOLD', 'À travers l\'histoire l\'or a été reconnue pour ses propriétés de luxe et embellir.<br/><br/>
-Or colloïdal, aussi connu comme «nano-or», est une suspension de sous-micrométrique des particules d\'or dans un fluide invisible à l\'œil nu. Les qualités miraculeuses de nano-or étaient connus depuis le début des temps par les anciens, qui ont consacré énormément de temps et d\'énergie à l\'alchimie et l\'or colloïdal est connu comme un «élixir de vie."<br/><br/>
-Les bénéfices anti-âge d\'or peut être retracée depuis 5000 années jusqu\'à les temps de Cléopâtre, qui a été dit de dormir avec un masque d\'or chaque nuit afin d\'améliorer la souplesse de son teint et de préserver sa luminosité naturelle.<br/><br/>
-En la médecine chinoise antique, Or a été une clé pour les jeunes, des reines utilisées rouleaux de massage d\'or sur leur visage tous les jours. les faciaux d\'or ont également été<br/><br/>
-utilisés dans la culture indienne ancienne et ont dit à raffermir la peau, lui donnant un éclat et en réduisant les rides. Dans La Rome antique les guerriers serait l\'utilisation des compresses d\'or sur leurs pieds pour accélérer la guérison des blessures reçues au combat.<br/><br/>
-Sous l\'influence de l\'or la peau améliore et renforce, retrouve l\'élasticité et la fraîcheur, l\'amélioration de la réponse du corps naturel pour la cicatrisation et la régénération. Alors, pourquoi est l\'or si spécial?<br/><br/>
-L\'or est connu pour avoir des propriétés antioxydantes,  il est un anti-inflammatoire et accélère le processus de guérison. Il est hypoallergénique. Une des propriétés les plus importantes de l\'or est qu\'il pénètre le niveau de kératine de la peau, en insérant les ingrédients actifs plus profondément dans le niveau de la peau et leur permettant de travailler plus vite en laissant un effet plus durable.<br/><br/>
-Quand l\'or est en contact avec la peau, il stimule la circulation sanguine dans la région, en accélérant les processus cellulaires et en activant la régénération.<br/><br/>
-Par ailleurs, l\'or est étroitement liée avec les électrons présents dans les cellules qui sont sensibles aux charges électriques; ces ions devient actif sous l\'influence de l\'oret les aider à recréer interrompre les connexions cellulaires. L\'or est bien réputé pour restaurer les propriétés d\'élasticité des tissus perdus. Or réduit également l\'apparition de dommages du soleil et les taches de vieillesse en ralentissant la sécrétion de mélanine.
-Il est vraiment l\'un de l\'émerveillement de la nature et votre peau, il le mérite.');
+define('TEXT_INFORMATION_GOLD', 'À travers l\'histoire l\'or a toujours été apprécié pour ses propriétés cosmétiques.<br/><br/>
+Les bénéfices anti-âge de l\'or datent de plus de 5000 ans.  Cléopâtre, dormait avec un masque d\'or chaque nuit afin d\'améliorer la souplesse de sa peau et préserver sa luminosité naturelle.
+<br/><br/>
+Sous l\'influence de l\'or,  la peau s\'améliore, se renforce, retrouve élasticité et fraîcheur. C\'est également un antioxydant, un anti-inflammatoire qui accélère le processus de guérison de la peau. Il est hypoallergénique. 
+Il a la capacité d\'éliminer les impuretés, les toxines des pores et de maintenir la peau nette en profondeur. Il ne s\'oxyde ni à l\'air, ni à l\'eau, ainsi il empêche l\'oxydation des cellules responsables du vieillissement cutané.
+<br/><br/>
+Une des propriétés les plus importantes de l\'or est qu\'il pénètre au niveau de la kératine de la peau en y  insérant des ingrédients actifs laissant un effet visible et durable. Quand l\'or est en contact avec la peau, il stimule la circulation sanguine en accélérant le processus cellulaires.
+Il stimule la production de collagène, ce qui permet la diminution des ridules et des rides en surface de la peau. En raison de ses qualités sur la microcirculation, l\'Or est un excellent émollient.
+<br/><br/>
+• Augmente l’élasticité de la peau<br/>
+• Tonifie la peau<br/>
+• Réduit les rides, les tâches d\'âge et l\'apparition de dommages du soleil<br/>
+• Aide à prévenir le vieillissement prématuré<br/>
+• Ralentit la détérioration du collagène<br/>
+• Réduit les cicatrices et les imperfections de la peau<br/>
+• Réparation de la peau endommagée qui augmente la durée de vie des cellules de la peau. ');
 
 /****contactus*******/
 define('CONTACTUS_INTRO','Si vous souhaitez acheter ou distribuer nos produits, merci de nous envoyer un email à <b>contact@avanah-paris.com</b> ou remplir le formulaire ci-dessous : ');
