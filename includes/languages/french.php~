@@ -306,7 +306,21 @@ S.S. 115 Km 131 </br>
 <b>Moscow (RUSSIA)</b></br>
 Barvikha Hotel & Spa</br>
 Rublevo-Uspenskoye Shosse, 114/2</br> Moscow,  143083, Russie</br>
-</td></tr></table>
+</td></tr><tr><td>
+<b>Afrique / Moyen Orient</b><br/>
+UTOPIA SA<br/>
+Tel : +961 71 06 97 88<br/>
+Contact M. Atrache Chadi<br/>
+chady@avanah-paris.com <br/>
+</td><td>
+<b>Sicily (ITALY)</b><br/>
+<b>Afrique / Middle East</b><br/>
+UTOPIA SA<br/>
+Tel : +961 71 06 97 88<br/>
+Contact M. Atrache Chadi<br/>
+chady@avanah-paris.com <br/>
+</td><td>
+</td></table>
 ');
  
 
