@@ -270,7 +270,7 @@ We exclusively catered to the professional sector of salons, spas and beauty pro
 Our mission is to develop and introduce new, safe, more affordable, and eco-friendly NGT™ products that will help improve the quality of all our lives. Our unique anti-aging skin care products restore a natural youthful glow and a smoother, suppler appearance. AVANAH Paris™ helps bring back the nourishment your skin needs to be healthier and function more effectively.');
 
 /* DISTRIBUTORS */
-define('MENU_TITLE_DISTRIBUTOR', 'Distributor');
+define('MENU_TITLE_DISTRIBUTOR', 'Distributors');
 define('HEADING_TITLE_DISTRIBUTOR', 'Become a distributor');
 define('TEXT_INFORMATION_DISTRIBUTOR', 'If you are interested in becoming a distributor in your area, please send us an email :  <b>contact@avanah-paris.com</b> <br/><br/>
 One of our sales agents will contact you shortly with distributor guidelines and requirements.<br/><br/>
