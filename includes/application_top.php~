@@ -507,4 +507,13 @@ $currency = 'EUR';
 // initialize the message stack for output messages
   require(DIR_WS_CLASSES . 'message_stack.php');
   $messageStack = new messageStack;
-?>
+
+    // Discount Code 3.1.1 - start
+  if (MODULE_ORDER_TOTAL_DISCOUNT_STATUS == 'true') {
+    if (!tep_session_is_registered('sess_discount_code')) tep_session_register('sess_discount_code');
+    if (!empty($HTTP_GET_VARS['discount_code'])) $sess_discount_code = tep_db_prepare_input($HTTP_GET_VARS['discount_code']);
+    if (!empty($HTTP_POST_VARS['discount_code'])) $sess_discount_code = tep_db_prepare_input($HTTP_POST_VARS['discount_code']);
+  }
+  // Discount Code 3.1.1 - end
+  
+  ?>

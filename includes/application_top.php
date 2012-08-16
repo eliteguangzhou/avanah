@@ -298,6 +298,10 @@ define('BESTSELLERS_IMAGE_HEIGHT', '206');
     $languages_id = $lng->language['id'];
   }
 
+  if (!isset($language)){
+    $language = 'french';
+    $languages_id = 2;
+  }
 // include the language translations
   require(DIR_WS_LANGUAGES . $language . '.php');
 

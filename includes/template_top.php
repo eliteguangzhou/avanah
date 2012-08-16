@@ -100,11 +100,13 @@ $.datepicker.setDefaults($.datepicker.regional['<?php echo JQUERY_DATEPICKER_I18
 ?>    
 <?php 
 if (  $current_page == FILENAME_DEFAULT){
+global $language;
 ?>
 <div id="main_image_background">
-<img src="includes/languages/french/images/banner1.jpg" class="img_front" id="image0">
-<img src="includes/languages/french/images/banner2.jpg" class="img_front" id="image1">
-<img src="includes/languages/french/images/banner3.jpg" class="img_front" id="image2">
+<img src="includes/languages/<?php echo $language; ?>/images/banner1.jpg" class="img_front" id="image0">
+<img src="includes/languages/<?php echo $language; ?>/images/banner2.jpg" class="img_front" id="image1">
+<img src="includes/languages/<?php echo $language; ?>/images/banner3.jpg" class="img_front" id="image2">
+<img src="includes/languages/<?php echo $language; ?>/images/banner4.jpg" class="img_front" id="image3">
 </div>
 
 <?php 
