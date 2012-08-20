@@ -96,8 +96,9 @@
         while ($pi = tep_db_fetch_array($pi_query)) {
           $pi_counter++;
           $pi_entry = '        <li class="wrapper_pic_div"><a href="';
-		  $pi_entry .= tep_href_link(DIR_WS_IMAGES . $pi['image']);
-		  $pi_entry .= '" target="_blank" rel="fancybox" title="' . $pi['htmlcontent'] . '" class="prods_pic_bg" style="width:'.(PROD_INFO_IMAGE_WIDTH + PIC_MARG_W).'px;height:'.(PROD_INFO_IMAGE_HEIGHT + PIC_MARG_H).'px;">' . tep_image(DIR_WS_IMAGES . $pi['image'], $pi['htmlcontent'], (PROD_INFO_IMAGE_WIDTH), (PROD_INFO_IMAGE_HEIGHT), ' style="width:'.(PROD_INFO_IMAGE_WIDTH + PIC_MARG_W2).'px;height:'.(PROD_INFO_IMAGE_HEIGHT + PIC_MARG_H2).'px;margin:'.PIC_MARG_T.'px '.PIC_MARG_R.'px '.PIC_MARG_B.'px '.PIC_MARG_L.'px;"') . ''.tep_draw_prod_pic_info_top().''.tep_draw_prod_pic_info_bottom().'</a>';
+          error_log(tep_href_link('/includes/languages/'.$language . '/images/' . $pi['image']));
+		  $pi_entry .= tep_href_link('/includes/languages/'.$language . '/images/' . $pi['image']);
+		  $pi_entry .= '" target="_blank" rel="fancybox" title="' . $pi['htmlcontent'] . '" class="prods_pic_bg" style="width:'.(PROD_INFO_IMAGE_WIDTH + PIC_MARG_W).'px;height:'.(PROD_INFO_IMAGE_HEIGHT + PIC_MARG_H).'px;">' . tep_image('/includes/languages/'.$language . '/images/' . $pi['image'], $pi['htmlcontent'], (PROD_INFO_IMAGE_WIDTH), (PROD_INFO_IMAGE_HEIGHT), ' style="width:'.(PROD_INFO_IMAGE_WIDTH + PIC_MARG_W2).'px;height:'.(PROD_INFO_IMAGE_HEIGHT + PIC_MARG_H2).'px;margin:'.PIC_MARG_T.'px '.PIC_MARG_R.'px '.PIC_MARG_B.'px '.PIC_MARG_L.'px;"') . ''.tep_draw_prod_pic_info_top().''.tep_draw_prod_pic_info_bottom().'</a>';
           $pi_entry .= '</li>';
           echo $pi_entry;
         }
@@ -132,7 +133,7 @@
 			  if (tep_not_null($product_info['products_image'])) {
 ?>
    			 	<div style="width:<?php echo (PROD_INFO_IMAGE_WIDTH + 10); ?>px;" class="hover">
-          <?php echo '<div id="piGal" class="wrapper_pic_div fl_left" style="width:'.(PROD_INFO_IMAGE_WIDTH + PIC_MARG_W).'px;height:'.(PROD_INFO_IMAGE_HEIGHT + PIC_MARG_H).'px;"><a class="prods_pic_bg" href="' . tep_href_link(DIR_WS_IMAGES . $product_info['products_image']) . '" target="_blank" rel="fancybox">' . tep_image(DIR_WS_IMAGES . $product_info['products_image'], addslashes($product_info['products_name']), (PROD_INFO_IMAGE_WIDTH), (PROD_INFO_IMAGE_HEIGHT), ' style="width:'.(PROD_INFO_IMAGE_WIDTH + PIC_MARG_W2).'px;height:'.(PROD_INFO_IMAGE_HEIGHT + PIC_MARG_H2).'px;margin:'.PIC_MARG_T.'px '.PIC_MARG_R.'px '.PIC_MARG_B.'px '.PIC_MARG_L.'px;"', '', '') . ''.tep_draw_prod_pic_info_top().''.tep_draw_prod_pic_info_bottom().'</a></div>'; ?>
+          <?php echo '<div id="piGal" class="wrapper_pic_div fl_left" style="width:'.(PROD_INFO_IMAGE_WIDTH + PIC_MARG_W).'px;height:'.(PROD_INFO_IMAGE_HEIGHT + PIC_MARG_H).'px;"><a class="prods_pic_bg" href="' . tep_href_link('/includes/languages/'.$language . '/images/' . $product_info['products_image']) . '" target="_blank" rel="fancybox">' . tep_image('/includes/languages/'.$language . '/images/' . $product_info['products_image'], addslashes($product_info['products_name']), (PROD_INFO_IMAGE_WIDTH), (PROD_INFO_IMAGE_HEIGHT), ' style="width:'.(PROD_INFO_IMAGE_WIDTH + PIC_MARG_W2).'px;height:'.(PROD_INFO_IMAGE_HEIGHT + PIC_MARG_H2).'px;margin:'.PIC_MARG_T.'px '.PIC_MARG_R.'px '.PIC_MARG_B.'px '.PIC_MARG_L.'px;"', '', '') . ''.tep_draw_prod_pic_info_top().''.tep_draw_prod_pic_info_bottom().'</a></div>'; ?>
         
     			</div>
 <?php
