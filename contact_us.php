@@ -106,7 +106,7 @@
 </form>
 <?php
   }
-echo INTRO_END;
+echo '<div id="end_contact">' . INTRO_END . '</div>';
   ?>
 
 <?php echo tep_draw_content_bottom();?>
