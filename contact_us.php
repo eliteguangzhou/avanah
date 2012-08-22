@@ -106,7 +106,9 @@
 </form>
 <?php
   }
-?>
+echo INTRO_END;
+  ?>
+
 <?php echo tep_draw_content_bottom();?>
 
 <?php
