@@ -312,7 +312,7 @@ UTOPIA SA<br/>
 Tel : +961 71 06 97 88<br/>
 Contact M. Atrache Chadi<br/>
 chady@avanah-paris.com <br/>
-</td><td>
+</td><td></td><td>
 </td></table>
 ');
  
