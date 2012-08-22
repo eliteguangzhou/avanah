@@ -287,17 +287,28 @@ define('BESTSELLERS_IMAGE_HEIGHT', '206');
 
     include(DIR_WS_CLASSES . 'language.php');
     $lng = new language();
-
+    
     if (isset($HTTP_GET_VARS['language']) && tep_not_null($HTTP_GET_VARS['language'])) {
       $lng->set_language($HTTP_GET_VARS['language']);
     } else {
       $lng->get_browser_language();
+      error_log($lng->language['directory']);
     }
 
     $language = $lng->language['directory'];
     $languages_id = $lng->language['id'];
+    
   }
 
+    include(DIR_WS_CLASSES . 'language.php');
+  $lng = new language();
+    
+      $lng->get_browser_language();
+      error_log($lng->language['directory']);
+  if (!isset($language)){
+    $language = 'french';
+    $languages_id = 2;
+  }
 // include the language translations
   require(DIR_WS_LANGUAGES . $language . '.php');
 

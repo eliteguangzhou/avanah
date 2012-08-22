@@ -72,9 +72,9 @@
 
     function set_language($language) {
       if ( (tep_not_null($language)) && (isset($this->catalog_languages[$language])) ) {
-        $this->language = $this->catalog_languages[$language];
+	$this->language = $this->catalog_languages[$language];
       } else {
-        $this->language = $this->catalog_languages[DEFAULT_LANGUAGE];
+        $this->language = $this->catalog_languages['fr'];
       }
     }
 
