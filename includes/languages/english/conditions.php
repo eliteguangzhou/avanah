@@ -66,12 +66,13 @@ The price of a product may fluctuate after it is posted on the Site. This fluctu
 <br/><h2>Article 4 - PAYMENT</h2><br/>
  
 The following payment methods may be accepted by Avanah-paris.com :
-Bank transfer (TT)
-Phone
-Credit card
-PayPal: PayPal enables you to pay online without sharing your financial information during the transaction.
-Coupons: You can use vouchers for payment of all or part of your order. These vouchers can only be used once.
-
+<ul>
+<li>Bank transfer (TT)</li>
+<li>Phone</li>
+<li>Credit card</li>
+<li>PayPal: PayPal enables you to pay online without sharing your financial information during the transaction.</li>
+<li>Coupons: You can use vouchers for payment of all or part of your order. These vouchers can only be used once.</li>
+</ul>
 <br/><b>Default of payment </b><br/>
 Avanah-paris.com reserves the right to refuse a delivery or an order from a customer who would not have paid or fully paid a previous order or with who a payment dispute is under processing. 
 
