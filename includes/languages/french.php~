@@ -272,48 +272,101 @@ Notre mission est de développer des produits qui aident à améliorer la qualit
 /* DISTRIBUTORS */
 define('MENU_TITLE_DISTRIBUTOR', 'Distributeurs');
 define('HEADING_TITLE_DISTRIBUTOR', 'Devenir distributeur');
-define('TEXT_INFORMATION_DISTRIBUTOR', 'Vous êtes distributeur de produits de beauté et recherchez une gamme de soins du visage pour compléter votre offre?<br/><br/>
- Vous souhaitez distribuer nos produits auprès des instituts de beauté de votre pays?<br/><br/>
-Contactez nous à <b>contact@avanah-paris.com</b>, nous vous répondons dans les  48h/72h.<br/><br/>
-
-Nous livrons dans le monde entier :
-<table border="1" style="text-align:center;"><tr >
-<td style="width:33%;"><b>New York (USA)</b></br>
-Black Label</br>
-43 Exchange Place</br>
-New York, NY 10005</br>
-</td><td style="width:33%;">
-<b>Vancouver (CANADA)</b></br>
-Innovative Therapeutic Technology</br>
-2028 Stephens Street</br>
-Vancouver, BC</br>
-</td><td style="width:33%;">
-<b>Barcelona (SPAIN)</b></br>
-New Look Muntaner</br>
-C/ Muntaner 442</br>
-Barcelona, Spain 08006</br>
-</td></tr><tr><td style="width:33%;">
-<b>Rio de Janeiro (BRAZIL)</b></br>
-Hôtel Santa Teresa</br>
-Rua Almirante Alexandrino 660</br>
-Santa Teresa 20241-260</br> Rio de Janeiro, RJ, Brazil</br>
-</td><td>
-<b>Sicily (ITALY)</b></br>
-Verdura Golf & Spa Resort </br>
-S.S. 115 Km 131 </br>
-92019 Sciacca  Sicily Italy</br>
-</td><td>
-<b>Moscow (RUSSIA)</b></br>
-Barvikha Hotel & Spa</br>
-Rublevo-Uspenskoye Shosse, 114/2</br> Moscow,  143083, Russie</br>
-</td></tr><tr><td>
-<b>Afrique / Moyen Orient</b><br/>
-UTOPIA SA<br/>
-Tel : +961 71 06 97 88<br/>
-Contact M. Atrache Chadi<br/>
-chady@avanah-paris.com <br/>
-</td><td>
-</td></table>
+define('TEXT_INFORMATION_DISTRIBUTOR', '<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in; background: #ffffff; line-height: 0.19in">
+<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">Si
+vous souhaitez acheter ou distribuer nos produits, merci de nous
+envoyer un email à</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR">&nbsp;</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><B><SPAN STYLE="background: #ffffff">contact@avanah-paris.com</SPAN></B></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR">&nbsp;</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">ou
+remplir le formulaire ci-dessous :</SPAN></SPAN></FONT></FONT></P>
+<P LANG="fr-FR" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; background: #ffffff; line-height: 0.19in">
+<BR>
+</P>
+<P LANG="fr-FR" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; background: #ffffff; line-height: 0.19in">
+<BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in; background: #ffffff; line-height: 0.19in">
+<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">(FORMULAIRE)</SPAN></SPAN></FONT></FONT></P>
+<P LANG="fr-FR" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; background: #ffffff; line-height: 0.19in">
+<BR>
+</P>
+<TABLE WIDTH=638 CELLPADDING=7 CELLSPACING=0>
+	<COL WIDTH=199>
+	<COL WIDTH=199>
+	<COL WIDTH=199>
+	<TR VALIGN=TOP>
+		<TD WIDTH=199 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><B><SPAN STYLE="background: #ffffff">FRANCE</SPAN></B></SPAN></FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">AVANAH-Paris</SPAN></SPAN></FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR">25
+			Avenue de L\'Europe </SPAN></FONT></FONT>
+			</P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR">92310
+			SEVRES, FRANCE. </SPAN></FONT></FONT>
+			</P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">TEL
+			: +33 970 465 025</SPAN></SPAN></FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">contact@avanah-paris.com</SPAN></SPAN></FONT></FONT></P>
+			<P LANG="fr-FR" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+		<TD WIDTH=199 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><B><SPAN STYLE="background: #ffffff">ALLEMAGNE</SPAN></B></FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif">AVANAH-Paris</FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif">Windmuehlenstr.
+			100</FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif">51063 Koeln</FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN STYLE="background: #ffffff">TEL
+			: +49 173 778 462 3</SPAN></FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">contact@avanah-paris.com</SPAN></SPAN></FONT></FONT></P>
+			<P LANG="fr-FR" ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+		<TD WIDTH=199 STYLE="border: none; padding: 0in">
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><B><SPAN STYLE="background: #ffffff">HONG
+			KONG</SPAN></B></FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif">AVANAH-Paris</FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"> <FONT FACE="Arial, serif">Flat B, 4th
+			Floor, Haven Building,  </FONT></FONT>
+			</P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif">North Point, Hong
+			Kong.</FONT></FONT></P>
+			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
+			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN STYLE="background: #ffffff">contact@avanah-paris.com</SPAN></FONT></FONT></P>
+			<P ALIGN=JUSTIFY><BR>
+			</P>
+		</TD>
+	</TR>
+	<TR VALIGN=TOP>
+		<TD WIDTH=199 STYLE="border: none; padding: 0in">
+			<P STYLE="background: #ffffff"><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><B><SPAN STYLE="background: #ffffff">Afrique
+			/ Moyen Orient</SPAN></B></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><BR></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">AVANAH-Paris</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><BR></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">chady@avanah-paris.com</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">&nbsp;</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><BR></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">TEL
+			: +961 71 06 97 88</SPAN></SPAN></FONT></FONT></P>
+		</TD>
+		<TD WIDTH=199 STYLE="border: none; padding: 0in">
+			<P LANG="fr-FR" ALIGN=JUSTIFY STYLE="background: #ffffff"><BR>
+			</P>
+		</TD>
+		<TD WIDTH=199 STYLE="border: none; padding: 0in">
+			<P LANG="fr-FR" ALIGN=JUSTIFY STYLE="background: #ffffff"><BR>
+			</P>
+		</TD>
+	</TR>
+</TABLE>
 ');
  
 
