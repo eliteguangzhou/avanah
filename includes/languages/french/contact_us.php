@@ -21,10 +21,7 @@ define('ENTRY_ENQUIRY', 'Message:');
 
 define('ERROR_ACTION_RECORDER', 'Une erreur est survenue. Veuillez r&eacute;essayer dans %s minutes.');
 
-define('INTRO_END', '<TABLE WIDTH=638 CELLPADDING=7 CELLSPACING=0>
-	<COL WIDTH=199>
-	<COL WIDTH=199>
-	<COL WIDTH=199>
+define('INTRO_END', '<TABLE  CELLPADDING=7 CELLSPACING=0>
 	<TR VALIGN=TOP>
 		<TD WIDTH=199 STYLE="border: none; padding: 0in">
 			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><B><SPAN STYLE="background: #ffffff">FRANCE</SPAN></B></SPAN></FONT></FONT><br/>
@@ -53,25 +50,14 @@ define('INTRO_END', '<TABLE WIDTH=638 CELLPADDING=7 CELLSPACING=0>
 			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
 			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><B><SPAN STYLE="background: #ffffff">HONG
 			KONG</SPAN></B></FONT></FONT><br/>
-			<FONT COLOR="#000000"> <FONT FACE="Arial, serif">Flat B, 4th
-			Floor, Haven Building,  </FONT></FONT><br/>
+			<FONT COLOR="#000000"> <FONT FACE="Arial, serif">Flat B, 4th Floor, Haven Building,  </FONT></FONT><br/>
 			<FONT COLOR="#000000"><FONT FACE="Arial, serif">North Point, Hong
 			Kong.</FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><br/><SPAN STYLE="background: #ffffff">contact@avanah-paris.com</SPAN></FONT></FONT></P>
 		</TD>
-	</TR>
-	<TR VALIGN=TOP>
 		<TD WIDTH=199 STYLE="border: none; padding: 0in">
 			<P STYLE="background: #ffffff"><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><B><SPAN STYLE="background: #ffffff">Afrique
 			/ Moyen Orient</SPAN></B></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><BR></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">AVANAH-Paris</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><BR></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">chady@avanah-paris.com</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">&nbsp;</SPAN></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><BR></SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">TEL
 			: +961 71 06 97 88</SPAN></SPAN></FONT></FONT></P>
-		</TD>
-		<TD WIDTH=199 STYLE="border: none; padding: 0in">
-			<P LANG="fr-FR" ALIGN=JUSTIFY STYLE="background: #ffffff"><BR>
-			</P>
-		</TD>
-		<TD WIDTH=199 STYLE="border: none; padding: 0in">
-			<P LANG="fr-FR" ALIGN=JUSTIFY STYLE="background: #ffffff"><BR>
-			</P>
 		</TD>
 	</TR>
 </TABLE>');
