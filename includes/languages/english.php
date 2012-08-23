@@ -332,16 +332,16 @@ I am honestly astonished at how well the under eye treatments work. It\'s like b
 /* why gold*/
 define('MENU_TITLE_GOLD', 'Why gold ?');
 define('HEADING_TITLE_GOLD', 'Why gold ?');
-define('TEXT_INFORMATION_GOLD', 'The anti-aging benefits of gold can be traced back 5,000 years to Cleopatra, who was said to sleep in a gold face mask every night to enhance the suppleness of her complexion and preserve its natural luminosity.
-In addition to antioxidant and antimicrobial powers, gold is praised for its purported ability to ward off UV damage, tighten lax skin and reduce the appearance of discoloration. 
-Throughout history, gold has been recognized for its luxurious and beautifying properties. Historians have long maintained that Cleopatra used pure gold as a tool to maintain youthful skin by reportedly sleeping in a gold mask every night. In ancient Rome, gold salves were used for the treatment of a variety of skin problems. In ancient Chinese medicine gold was a key to youth, as the queen of the Ch’ing dynasty used a gold massage roller on her face every day.  These gold facials are also being touted as being based on the ancient Indian healing art of Ayurveda and are said to firm the skin, give it a glow and reduce wrinkles.
-Gold-based facial spa treatments may be found in California, Georgia, Texas, New York, and New Jersey with prices starting at $175 for a sixty minute treatment.  The benefits of gold reportedly include:
-Gold slows down collagen depletion and the breakdown of elastin to prevent sagging skin. It stimulates cellular growth of the basal layer to regenerate healthy, firm skin cells and provide a tightening effect.
-Reduces the Appearance of Fine Lines and Wrinkles.
-Reduces the Appearance of Sun Damage and Age Spots: Since 1929 Gold has been successfully used to treat rheumatoid arthritis by reducing inflammation. Gold\'s anti-inflammatory properties also decrease skin inflammation, thereby slowing down melanin secretion and reducing age spots.
-Gold fights off damaging free radicals to help prevent premature aging of the skin.
-The alchemists in the 15th century considered gold a favorable remedy for most ills and prepared many substances with it.
-In Renaissance Venice, the double function of gold as medicine and as a symbol of riches was combined in the custom of serving gold-covered, sugared almonds after the meal in order to strengthen the heart and protect against rheumatism.
+define('TEXT_INFORMATION_GOLD', 'The anti-aging benefits of gold can be traced back 5,000 years to Cleopatra, who was said to sleep in a gold face mask every night to enhance the suppleness of her complexion and preserve its natural luminosity.<br/><br/>
+In addition to antioxidant and antimicrobial powers, gold is praised for its purported ability to ward off UV damage, tighten lax skin and reduce the appearance of discoloration. <br/><br/>
+Throughout history, gold has been recognized for its luxurious and beautifying properties. Historians have long maintained that Cleopatra used pure gold as a tool to maintain youthful skin by reportedly sleeping in a gold mask every night. In ancient Rome, gold salves were used for the treatment of a variety of skin problems. In ancient Chinese medicine gold was a key to youth, as the queen of the Ch’ing dynasty used a gold massage roller on her face every day.  These gold facials are also being touted as being based on the ancient Indian healing art of Ayurveda and are said to firm the skin, give it a glow and reduce wrinkles.<br/><br/>
+Gold-based facial spa treatments may be found in California, Georgia, Texas, New York, and New Jersey with prices starting at $175 for a sixty minute treatment.<br/>  The benefits of gold reportedly include:<br/>
+Gold slows down collagen depletion and the breakdown of elastin to prevent sagging skin. It stimulates cellular growth of the basal layer to regenerate healthy, firm skin cells and provide a tightening effect.<br/><br/>
+Reduces the Appearance of Fine Lines and Wrinkles.<br/><br/>
+Reduces the Appearance of Sun Damage and Age Spots: Since 1929 Gold has been successfully used to treat rheumatoid arthritis by reducing inflammation. Gold\'s anti-inflammatory properties also decrease skin inflammation, thereby slowing down melanin secretion and reducing age spots.<br/><br/>
+Gold fights off damaging free radicals to help prevent premature aging of the skin.<br/><br/>
+The alchemists in the 15th century considered gold a favorable remedy for most ills and prepared many substances with it.<br/><br/>
+In Renaissance Venice, the double function of gold as medicine and as a symbol of riches was combined in the custom of serving gold-covered, sugared almonds after the meal in order to strengthen the heart and protect against rheumatism.<br/><br/>
 During Visconti\'s reign in Milan, gold and spices were blended with unpleasant things which needed to be swallowed in order to make them more appetizing.
  Embellishing foods with gold is a centuries old tradition that originated in the East, where it served as a symbol of hospitality and wealth. Gold on food and drink was also considered a symbol of respect for special guests at your table.');
 

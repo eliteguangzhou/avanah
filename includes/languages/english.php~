@@ -272,103 +272,49 @@ Our mission is to develop and introduce new, safe, more affordable, and eco-frie
 /* DISTRIBUTORS */
 define('MENU_TITLE_DISTRIBUTOR', 'Distributors');
 define('HEADING_TITLE_DISTRIBUTOR', 'Become a distributor');
-define('TEXT_INFORMATION_DISTRIBUTOR', '<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in; background: #ffffff; line-height: 0.19in">
-<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN STYLE="background: #ffffff">If
-you are interested in buying or becoming a distributor of our
-products, send us an email</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif">&nbsp;</FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><B><SPAN STYLE="background: #ffffff">contact@avanah-paris.com</SPAN></B></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif">&nbsp;</FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN STYLE="background: #ffffff">or
-complete the form below :</SPAN></FONT></FONT></P>
-<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in; background: #ffffff; line-height: 0.19in">
-<BR>
-</P>
-<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in; background: #ffffff; line-height: 0.19in">
-<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">(FORMULAIRE)</SPAN></SPAN></FONT></FONT></P>
-<P LANG="fr-FR" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; background: #ffffff; line-height: 0.19in">
-<BR>
-</P>
-<P LANG="fr-FR" ALIGN=JUSTIFY STYLE="margin-bottom: 0in; background: #ffffff; line-height: 0.19in">
-<BR>
-</P>
-<TABLE WIDTH=638 CELLPADDING=7 CELLSPACING=0>
-	<COL WIDTH=199>
-	<COL WIDTH=199>
-	<COL WIDTH=199>
-	<TR VALIGN=TOP>
-		<TD WIDTH=199 STYLE="border: none; padding: 0in">
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><B><SPAN STYLE="background: #ffffff">FRANCE</SPAN></B></SPAN></FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">AVANAH-Paris</SPAN></SPAN></FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR">25
-			Avenue de L\'Europe </SPAN></FONT></FONT>
-			</P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR">92310
-			SEVRES, FRANCE. </SPAN></FONT></FONT>
-			</P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">TEL
-			: +33 970 465 025</SPAN></SPAN></FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">contact@avanah-paris.com</SPAN></SPAN></FONT></FONT></P>
-			<P LANG="fr-FR" ALIGN=JUSTIFY><BR>
-			</P>
-		</TD>
-		<TD WIDTH=199 STYLE="border: none; padding: 0in">
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><B><SPAN STYLE="background: #ffffff">GERMANY</SPAN></B></FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif">AVANAH-Paris</FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif">Windmuehlenstr.
-			100</FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif">51063 Koeln</FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">TEL
-			: +49 173 778 462 3</SPAN></SPAN></FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN LANG="fr-FR"><SPAN STYLE="background: #ffffff">contact@avanah-paris.com</SPAN></SPAN></FONT></FONT></P>
-			<P LANG="fr-FR" ALIGN=JUSTIFY><BR>
-			</P>
-		</TD>
-		<TD WIDTH=199 STYLE="border: none; padding: 0in">
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><B><SPAN STYLE="background: #ffffff">HONG
-			KONG</SPAN></B></FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif">AVANAH-Paris</FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"> <FONT FACE="Arial, serif">Flat B, 4th
-			Floor, Haven Building,  </FONT></FONT>
-			</P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif">North Point, Hong
-			Kong.</FONT></FONT></P>
-			<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.14in; background: #ffffff">
-			<FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN STYLE="background: #ffffff">contact@avanah-paris.com</SPAN></FONT></FONT></P>
-			<P ALIGN=JUSTIFY><BR>
-			</P>
-		</TD>
-	</TR>
-	<TR VALIGN=TOP>
-		<TD WIDTH=199 STYLE="border: none; padding: 0in">
-			<P STYLE="margin-bottom: 0.14in; background: #ffffff"><FONT COLOR="#000000"><FONT FACE="Arial, serif"><B><SPAN STYLE="background: #ffffff">Africa
-			/ Middle East</SPAN></B></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><BR></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN STYLE="background: #ffffff">AVANAH-Paris</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><BR></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN STYLE="background: #ffffff">UTOPIA
-			SA</SPAN></FONT></FONT></P>
-			<P STYLE="background: #ffffff"><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN STYLE="background: #ffffff">chady@avanah-paris.com</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN STYLE="background: #ffffff">&nbsp;</SPAN></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><BR></FONT></FONT><FONT COLOR="#000000"><FONT FACE="Arial, serif"><SPAN STYLE="background: #ffffff">TEL
-			: +961 71 06 97 88</SPAN></FONT></FONT></P>
-		</TD>
-		<TD WIDTH=199 STYLE="border: none; padding: 0in">
-			<P ALIGN=JUSTIFY STYLE="background: #ffffff"><BR>
-			</P>
-		</TD>
-		<TD WIDTH=199 STYLE="border: none; padding: 0in">
-			<P ALIGN=JUSTIFY STYLE="background: #ffffff"><BR>
-			</P>
-		</TD>
-	</TR>
-</TABLE>
+define('TEXT_INFORMATION_DISTRIBUTOR', 'If you are interested in becoming a distributor in your area, please send us an email :  <b>contact@avanah-paris.com</b> <br/><br/>
+One of our sales agents will contact you shortly with distributor guidelines and requirements.<br/><br/>
+<b>We ship world wide :</b>
+<table  border="1" style="text-align:center;"><tr>
+<td style="width:33%;">
+<b>New York (USA)</b><br/>
+Black Label<br/>
+43 Exchange Place<br/>
+New York, NY 10005
+</td><td style="width:33%;">
+<b>Vancouver (CANADA)</b><br/>
+Innovative Therapeutic Technology<br/>
+2028 Stephens Street<br/>
+Vancouver, BC
+</td><td style="width:33%;">
+<b>Barcelona (SPAIN)</b><br/>
+New Look Muntaner<br/>
+C/ Muntaner 442<br/>
+Barcelona, Spain 08006
+</td></tr><tr><td>
+<b>Rio de Janeiro (BRAZIL)</b><br/>
+Hôtel Santa Teresa<br/>
+Rua Almirante Alexandrino 660<br/>
+Santa Teresa 20241-260
+<br/>Rio de Janeiro, RJ, Brazil 
+</td><td>
+<b>Sicily (ITALY)</b><br/>
+Verdura Golf & Spa Resort <br/>
+S.S. 115 Km 131 <br/>
+92019 Sciacca  Sicily Italy
+</td><td>
+<b>Moscow (RUSSIA)</b><br/>
+Barvikha Hotel & Spa<br/>
+Rublevo-Uspenskoye Shosse, 114/2
+<br/>Moscow,  143083, Russie<br/>
+</td></tr><tr><td>
+<b>Afrique / Middle East</b><br/>
+UTOPIA SA<br/>
+Tel : +961 71 06 97 88<br/>
+Contact M. Atrache Chadi<br/>
+chady@avanah-paris.com <br/>
+</td><td></td><td>
+</td></tr></table>
 ');
  
 
@@ -386,16 +332,16 @@ I am honestly astonished at how well the under eye treatments work. It\'s like b
 /* why gold*/
 define('MENU_TITLE_GOLD', 'Why gold ?');
 define('HEADING_TITLE_GOLD', 'Why gold ?');
-define('TEXT_INFORMATION_GOLD', 'The anti-aging benefits of gold can be traced back 5,000 years to Cleopatra, who was said to sleep in a gold face mask every night to enhance the suppleness of her complexion and preserve its natural luminosity.
-In addition to antioxidant and antimicrobial powers, gold is praised for its purported ability to ward off UV damage, tighten lax skin and reduce the appearance of discoloration. 
-Throughout history, gold has been recognized for its luxurious and beautifying properties. Historians have long maintained that Cleopatra used pure gold as a tool to maintain youthful skin by reportedly sleeping in a gold mask every night. In ancient Rome, gold salves were used for the treatment of a variety of skin problems. In ancient Chinese medicine gold was a key to youth, as the queen of the Ch’ing dynasty used a gold massage roller on her face every day.  These gold facials are also being touted as being based on the ancient Indian healing art of Ayurveda and are said to firm the skin, give it a glow and reduce wrinkles.
-Gold-based facial spa treatments may be found in California, Georgia, Texas, New York, and New Jersey with prices starting at $175 for a sixty minute treatment.  The benefits of gold reportedly include:
-Gold slows down collagen depletion and the breakdown of elastin to prevent sagging skin. It stimulates cellular growth of the basal layer to regenerate healthy, firm skin cells and provide a tightening effect.
-Reduces the Appearance of Fine Lines and Wrinkles.
-Reduces the Appearance of Sun Damage and Age Spots: Since 1929 Gold has been successfully used to treat rheumatoid arthritis by reducing inflammation. Gold\'s anti-inflammatory properties also decrease skin inflammation, thereby slowing down melanin secretion and reducing age spots.
-Gold fights off damaging free radicals to help prevent premature aging of the skin.
-The alchemists in the 15th century considered gold a favorable remedy for most ills and prepared many substances with it.
-In Renaissance Venice, the double function of gold as medicine and as a symbol of riches was combined in the custom of serving gold-covered, sugared almonds after the meal in order to strengthen the heart and protect against rheumatism.
+define('TEXT_INFORMATION_GOLD', 'The anti-aging benefits of gold can be traced back 5,000 years to Cleopatra, who was said to sleep in a gold face mask every night to enhance the suppleness of her complexion and preserve its natural luminosity.<br/><br/>
+In addition to antioxidant and antimicrobial powers, gold is praised for its purported ability to ward off UV damage, tighten lax skin and reduce the appearance of discoloration. <br/><br/>
+Throughout history, gold has been recognized for its luxurious and beautifying properties. Historians have long maintained that Cleopatra used pure gold as a tool to maintain youthful skin by reportedly sleeping in a gold mask every night. In ancient Rome, gold salves were used for the treatment of a variety of skin problems. In ancient Chinese medicine gold was a key to youth, as the queen of the Ch’ing dynasty used a gold massage roller on her face every day.  These gold facials are also being touted as being based on the ancient Indian healing art of Ayurveda and are said to firm the skin, give it a glow and reduce wrinkles.<br/><br/>
+Gold-based facial spa treatments may be found in California, Georgia, Texas, New York, and New Jersey with prices starting at $175 for a sixty minute treatment.  The benefits of gold reportedly include:<br/>
+Gold slows down collagen depletion and the breakdown of elastin to prevent sagging skin. It stimulates cellular growth of the basal layer to regenerate healthy, firm skin cells and provide a tightening effect.<br/><br/>
+Reduces the Appearance of Fine Lines and Wrinkles.<br/><br/>
+Reduces the Appearance of Sun Damage and Age Spots: Since 1929 Gold has been successfully used to treat rheumatoid arthritis by reducing inflammation. Gold\'s anti-inflammatory properties also decrease skin inflammation, thereby slowing down melanin secretion and reducing age spots.<br/><br/>
+Gold fights off damaging free radicals to help prevent premature aging of the skin.<br/><br/>
+The alchemists in the 15th century considered gold a favorable remedy for most ills and prepared many substances with it.<br/><br/>
+In Renaissance Venice, the double function of gold as medicine and as a symbol of riches was combined in the custom of serving gold-covered, sugared almonds after the meal in order to strengthen the heart and protect against rheumatism.<br/><br/>
 During Visconti\'s reign in Milan, gold and spices were blended with unpleasant things which needed to be swallowed in order to make them more appetizing.
  Embellishing foods with gold is a centuries old tradition that originated in the East, where it served as a symbol of hospitality and wealth. Gold on food and drink was also considered a symbol of respect for special guests at your table.');
 
