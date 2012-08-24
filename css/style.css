@@ -111,14 +111,14 @@ h2.name span a 					{font-weight:normal;}
 
 .price b							{color:#727272;float:left; display:none;}
 
-.price SPAN.productSpecialPrice 	{color:#d0015d;font-size:1.5em; line-height:2em; font-weight:normal; }
+.price SPAN.productSpecialPrice 	{color:#b98409;font-size:1.5em; line-height:2em; font-weight:normal; }
 .price del							{color:#979797;font-size:1.2em;line-height:2em; font-weight:normal; display:inline-block; margin-top:0px; margin-left:0px;}
 
 div.price SPAN.productSpecialPrice		{float:left; display:inline-block;}
 div.price del							{float:right;display:inline-block; margin-left:.3em;margin-top:.4em;}
 
-.cart_price   SPAN.productSpecialPrice 	{color:#d0015d;font-size:1.7em; line-height:2.0em; font-weight:normal;}
-.cart_total	  .productSpecialPrice 		{color:#d0015d;font-size:1.7em; line-height:2.0em; font-weight:normal;}
+.cart_price   SPAN.productSpecialPrice 	{color:#b98409;font-size:1.7em; line-height:2.0em; font-weight:normal;}
+.cart_total	  .productSpecialPrice 		{color:#b98409;font-size:1.7em; line-height:2.0em; font-weight:normal;}
 
 h2.price b								{font-size:.6em; font-weight:normal; display:inline-block; margin-top:5px;float:left; display:none;}
 h2.price  SPAN.productSpecialPrice 		{font-size:1em; line-height:1.1em; font-weight:normal; display:inline-block; padding-top:3px;}
@@ -170,7 +170,7 @@ tr .cart_price							{border:1px solid #e1e1e1; border-width:0px 1px 1px 1px;}
 .cart table td							{padding: 0px 11px 0px 11px;}
 .cart_products_options					{width:120px;padding:11px; border:1px solid #d7d7d7;}
 .cart_total	td							{font-size:1em; font-weight:bold;
-									     text-transform:uppercase;padding:10px; text-align:center; border:1px solid #e1e1e1; border-width:0px 0px 0px 0px;}
+									     text-transform:uppercase; text-align:center; border:1px solid #e1e1e1; border-width:0px 0px 0px 0px;line-height: 1;}
 .cart_total .bg_button2,
 .cart_total .bg_button2-act				{margin-top:8px;}
 .or										{padding-top:1px;padding-right: 15px; }									 
@@ -186,11 +186,11 @@ tr .cart_price							{border:1px solid #e1e1e1; border-width:0px 1px 1px 1px;}
 .cart .row > td							{padding-bottom:11px;}
 /* ************************************************************************************* */
 .cart_total2     td                                                      {font-size:1em; font-weight:bold;
-                                                                             text-transform:uppercase;padding:10px; text-align:center; border:1px solid #e1e1e1; border-width:1px 0px 0px 0px;vertical-align: middle;}
+                                                                             text-transform:uppercase; text-align:center; border:1px solid #e1e1e1; border-width:1px 0px 0px 0px;vertical-align: middle;}
 .cart_total2 .bg_button2,
 .cart_total2 .bg_button2-act                             {margin-top:8px;}
 .cart_total2     td.cart_total2_title              {border-width: 1px 1px 0px 0px;}
-.cart_total2       .productSpecialPrice          {color:#d0015d;font-size:1.7em; line-height:2.0em; font-weight:normal;}
+.cart_total2       .productSpecialPrice          {color:#b98409;font-size:1.7em; line-height:2.0em; font-weight:normal;}
 /* ************************************************************************************* */
 /* ************************************************************************************* */
 .result1_top									{margin:14px 0px 0px 0px;border:1px solid #fff; border-width:1px 0px 1px 0px; background:#fbfbfb}
