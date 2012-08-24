@@ -218,7 +218,7 @@
 <?php
         }
 ?>
-            			<div class="desc desc_padd"><?php echo stripslashes($product_info['products_description']); ?></div>
+            			<div class="desc desc_padd"><div style="text-align:justify;"><?php echo stripslashes($product_info['products_description']); ?></div></div>
     
 <?php
         $reviews_query = tep_db_query("select count(*) as count from " . TABLE_REVIEWS . " where products_id = '" . (int)$HTTP_GET_VARS['products_id'] . "' and reviews_status = 1");
