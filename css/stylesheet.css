@@ -184,8 +184,8 @@ a:hover 	{color:#B98409; text-decoration:none;}
 .breadcrumb					{color: #2e2e2e;}
 .breadcrumb a 				{color: #2e2e2e; font-size:1.1em; font-weight:normal; 
   						     display:inline-block;}
-.breadcrumb a:hover 		{color: #479faf; text-decoration:none;}
-.breadcrumb a.last 			{color: #479faf;}
+.breadcrumb a:hover 		{color: #B98409; text-decoration:none;}
+.breadcrumb a.last 			{color: #B98409;}
 /* ************************************************************************************* */
 /* ************************************************************************************* */
 .user_menu 					{padding:0px 0px 0px 0px;margin:3px 0px 0px -10px; list-style:none;}
@@ -194,7 +194,7 @@ a:hover 	{color:#B98409; text-decoration:none;}
 .user_menu li a 			{color:#7f7f7f;font-weight:normal; text-decoration:none;
 				 			 cursor:pointer; white-space:nowrap;display:block;padding:3px 6px 1px 10px;background:url('../images/user_menu.gif') no-repeat transparent; background-position:0 9px;}
 .user_menu li a:hover,				 
-.user_menu li.act a			{color:#479faf; text-decoration:none;background-position:0 -31px;}				 
+.user_menu li.act a			{color:#B98409; text-decoration:none;background-position:0 -31px;}				 
 
 /* ************************************************************************************* */
 /* ************************************************************************************* */
